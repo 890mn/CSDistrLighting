@@ -1,0 +1,14 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/device/device"
+  ],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#3c9cff",
+    "backgroundColor": "#f8f8f8",
+    "navigationStyle": "custom"
+  },
+  "usingComponents": {}
+}

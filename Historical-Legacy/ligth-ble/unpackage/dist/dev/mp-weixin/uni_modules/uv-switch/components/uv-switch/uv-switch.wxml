@@ -1,0 +1,1 @@
+<view class="{{['uv-switch', 'data-v-c713e4c9', e]}}" style="{{f + ';' + g}}" bindtap="{{h}}"><view class="uv-switch__bg data-v-c713e4c9" style="{{a}}"></view><view class="{{['uv-switch__node', 'data-v-c713e4c9', c]}}" style="{{d}}" ref="uv-switch__node"><uv-loading-icon wx:if="{{b}}" class="data-v-c713e4c9" u-i="c713e4c9-0" bind:__l="__l" u-p="{{b}}"/></view></view>

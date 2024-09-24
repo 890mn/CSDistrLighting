@@ -1,0 +1,16 @@
+{
+  "navigationBarTitleText": "设备控制",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "uv-navbar": "../../uni_modules/uv-navbar/components/uv-navbar/uv-navbar",
+    "uv-modal": "../../uni_modules/uv-modal/components/uv-modal/uv-modal",
+    "uv-toast": "../../uni_modules/uv-toast/components/uv-toast/uv-toast",
+    "uv-loading-page": "../../uni_modules/uv-loading-page/components/uv-loading-page/uv-loading-page",
+    "uv-col": "../../uni_modules/uv-row/components/uv-col/uv-col",
+    "uv-row": "../../uni_modules/uv-row/components/uv-row/uv-row",
+    "uv-cell": "../../uni_modules/uv-cell/components/uv-cell/uv-cell",
+    "uv-switch": "../../uni_modules/uv-switch/components/uv-switch/uv-switch",
+    "uv-slider": "../../uni_modules/uv-slider/components/uv-slider/uv-slider",
+    "uv-cell-group": "../../uni_modules/uv-cell/components/uv-cell-group/uv-cell-group"
+  }
+}

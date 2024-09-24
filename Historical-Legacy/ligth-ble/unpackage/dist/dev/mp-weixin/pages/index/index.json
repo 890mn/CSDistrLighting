@@ -1,0 +1,14 @@
+{
+  "navigationBarTitleText": "设备扫描",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "uv-navbar": "../../uni_modules/uv-navbar/components/uv-navbar/uv-navbar",
+    "uv-toast": "../../uni_modules/uv-toast/components/uv-toast/uv-toast",
+    "uv-button": "../../uni_modules/uv-button/components/uv-button/uv-button",
+    "uv-col": "../../uni_modules/uv-row/components/uv-col/uv-col",
+    "uv-row": "../../uni_modules/uv-row/components/uv-row/uv-row",
+    "uv-list-item": "../../uni_modules/uv-list/components/uv-list-item/uv-list-item",
+    "uv-list": "../../uni_modules/uv-list/components/uv-list/uv-list",
+    "uv-empty": "../../uni_modules/uv-empty/components/uv-empty/uv-empty"
+  }
+}
