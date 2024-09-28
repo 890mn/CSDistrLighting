@@ -6,7 +6,6 @@
 #define SCREEN_HEIGHT 64
 #define LDR_PIN 4 // 光敏电阻引脚
 
-// 创建OLED对象，使用地址0x7A
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, -1);
 
 void setup() {
