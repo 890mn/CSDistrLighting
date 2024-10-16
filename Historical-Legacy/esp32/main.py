@@ -1,7 +1,6 @@
 # 最终烧录进去，自动运行的代码文件
 from machine import Pin,I2C,PWM,Timer
 from ssd1306 import SSD1306_I2C
-from gy30 import GY30
 import bluetooth
 import time
 import json

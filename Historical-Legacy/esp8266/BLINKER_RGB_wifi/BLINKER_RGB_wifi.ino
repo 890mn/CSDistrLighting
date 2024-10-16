@@ -124,20 +124,20 @@ void OnDataRecv(uint8_t * mac, uint8_t *incomingData, uint8_t len) {
         previousState = isOn; // 更新状态记录
     }
     // 打印解析得到的数据
-    // Serial.print("PreviousState: ");
-    // Serial.println(previousState);
-    // Serial.print("On: ");
-    // Serial.println(isOn);
-    // Serial.print("Light: ");
-    // Serial.println(light);
-    // Serial.print("Power: ");
-    // Serial.println(power);
-    // Serial.print("Auto: ");
-    // Serial.println(isAuto);
-    // Serial.print("Kelvin: ");
-    // Serial.println(kelvin);
-    // Serial.print("Luminance: ");
-    // Serial.println(luminance);
+     Serial.print("PreviousState: ");
+     Serial.println(previousState);
+     Serial.print("On: ");
+     Serial.println(isOn);
+     Serial.print("Light: ");
+     Serial.println(light);
+     Serial.print("Power: ");
+     Serial.println(power);
+     Serial.print("Auto: ");
+     Serial.println(isAuto);
+     Serial.print("Kelvin: ");
+     Serial.println(kelvin);
+     Serial.print("Luminance: ");
+     Serial.println(luminance);
   } else {
     Serial.print("deserializeJson() failed: ");
     Serial.println(error.c_str());
