@@ -6,7 +6,7 @@ The final goal is to complete the Main Control System to the Distribute Lighting
 
 ## Project Progress
 
-- 2024-10-17 | Restruct this Project and All in PlatformIO | [Request #2](https://github.com/890mn/CSDistrLighting/pull/2#issue-2594265478)
+- 2024-10-17 | Restruct this Project and All in PlatformIO | #2
 
 
 ## Project Structure
