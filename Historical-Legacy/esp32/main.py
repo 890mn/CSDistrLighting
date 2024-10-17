@@ -1,7 +1,5 @@
 # 最终烧录进去，自动运行的代码文件
 from machine import Pin,I2C,PWM,Timer
-from ssd1306 import SSD1306_I2C
-from gy30 import GY30
 import bluetooth
 import time
 import json
@@ -26,6 +24,22 @@ e.active(True)
 peer = b'\xcc\x50\xe3\x74\xf5\x1a'
 e.add_peer(peer)
 e.send(peer,json.dumps(device))
+
+class GY30:
+    def __init__(self, i2c, addr=0x23):
+        self.i2c = i2c
+        self.addr = addr
+        self.init()
+        
+    def init(self):
+        self.i2c.writeto(self.addr,chr(0x01)) # 通电运行 
+        self.i2c.writeto(self.addr,chr(0x07)) # 复位
+        self.i2c.writeto(self.addr,chr(0x10)) # 横向分辨率连续读取 1 Lx 120ms
+    
+    def get_val(self):
+        gy = self.i2c.readfrom(self.addr,2) #0-65535 1 8bit 2  int 16 char 8
+        gy30 = float(gy[0] << 8 | gy[1])/1.2 #左移动，可以理解为乘法 gy[0]*0xff 
+        return gy30
 
 class ESP32_BLE():
     def __init__(self, name):
@@ -102,31 +116,12 @@ class ESP32_BLE():
 
 
 gy30_addr = 0x23  # 光线传感器I2C地址
-oled_addr = 0x3c  # oled屏幕I2C地址
 
 i2c = I2C(0,scl = Pin(19),sda = Pin(21),freq = 1_000_000)
 i2c1 = I2C(1,scl = Pin(22),sda = Pin(23),freq = 1_000_000)
 ble = ESP32_BLE("LIGHT-BLE")
-oled = SSD1306_I2C(128,64,i2c1,oled_addr)  # 0.96寸分辨率128*64
-oled.contrast(255) #0-255
 
 gy30=GY30(i2c,gy30_addr)
-def oled_control():
-    device['light']=int(gy30.get_val())
-    oled.fill(0)
-    if device['on']:
-        oled.text("Light On",0,0)  # 第一行显示gy-30 lighting
-    else:
-        oled.text("Light Off",0,0)  # 第一行显示gy-30 lighting
-        
-    if device['auto']:
-        oled.text("Auto Mode",0,30)  # 第一行显示gy-30 lighting
-    else:
-        oled.text("Manuel Mode",0,30)  # 第一行显示gy-30 lighting
-        
-    oled.text(f"Light: {device['light']} Lx",0,10)  # 第二行显示* 259.33 Lx *
-    oled.text(f"Power: {device['power']} %",0,20)  # 第二行显示* 259.33 Lx *
-    oled.show()
     
         
 def send_ble_data():
@@ -140,7 +135,7 @@ def send_espnow_data():
  
 def main():
     while True:
-        oled_control()
+        #oled_control()
         send_ble_data()
         send_espnow_data()
         time.sleep(1)
