@@ -11,11 +11,11 @@
 
 #define SCREEN_WIDTH 128
 #define SCREEN_HEIGHT 64
-#define OLED_RESET    -1
+
 #define GY30_ADDRESS 0x23
 #define OLED_I2C_ADDRESS 0x3C
 
-Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire1, OLED_RESET);
+Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire1, -1);
 
 struct Device {
     bool on;
@@ -26,15 +26,15 @@ struct Device {
     int luminance;
 };
 
-Device device = {false, 0, 50, false, 4000, 400};
+Device device         = {false, 0, 50, false, 4000, 400};
 uint8_t peerAddress[] = {0xCC, 0x50, 0xE3, 0x74, 0xF5, 0x1A};
 
 #define SERVICE_UUID        "6E400000-B5A3-F393-E0A9-E50E24DCCA9E"
 #define CHARACTERISTIC_UUID "6E400001-B5A3-F393-E0A9-E50E24DCCA9E"
 
-BLEServer *bleServer = nullptr;
+bool deviceConnected                 = false;
+BLEServer *bleServer                 = nullptr;
 BLECharacteristic *bleCharacteristic = nullptr;
-bool deviceConnected = false;
 
 void onSent(const uint8_t *mac_addr, esp_now_send_status_t status) {
     Serial.print("\r\nLast Packet Send Status: ");
@@ -43,8 +43,6 @@ void onSent(const uint8_t *mac_addr, esp_now_send_status_t status) {
 
 class GY30 {
 public:
-    GY30() {}
-
     void begin() {
         Wire.beginTransmission(GY30_ADDRESS);
         Wire.write(0x01);
@@ -253,27 +251,19 @@ void sendESPNowData() {
 
 void setup() {
     Serial.begin(115200);
+
+    Wire1.begin(23, 22);
+    display.begin(SSD1306_SWITCHCAPVCC, OLED_I2C_ADDRESS);
+
     Wire.begin(21, 19);
     gy30.begin();
-    Serial.println("GY-30 sensor initialized.");
-    Wire1.begin(23, 22);
-    if (!display.begin(SSD1306_SWITCHCAPVCC, OLED_I2C_ADDRESS)) {
-        Serial.println(F("SSD1306 allocation failed"));
-        for (;;);
-    }
-    display.display();
-    delay(2000);
-    display.clearDisplay();
+
     initWiFi();
     initESPNow();
     initBLE("LIGHT-BLE");
 }
 
 void loop() {
-    float lightLevel = gy30.getLightLevel();
-    Serial.print("Light Level: ");
-    Serial.print(lightLevel);
-    Serial.println(" Lx");
     sendESPNowData();
     sendBLEData();
     updateOLED();

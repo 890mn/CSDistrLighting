@@ -4,6 +4,29 @@ This Project is about the Control System of Distributed Lighting (CSDL) Based on
 
 The final goal is to complete the Main Control System to the Distribute Lighting.
 
+## Project Progress
+
+- Restruct the ESP32 from MicroPython to PlatformIO
+
+- Restruct the ESP8266 from Arduino to PlatformIO
+
+## Project Structure
+
+```plaintext
+CSDistrLighting
+├─ Hardware
+│   ├─ ESP32Part
+│   └─ ESP8266Part
+├─ Software
+│   └─ WebPart
+├─ Historical-Legacy
+│   ├─ esp32(micropython)
+│   └─ esp8266(arduino)
+├─ Pic
+├─ 入门指南-上.md
+└─ 入门指南-下.md
+```
+
 ## Current direction
 
 - **第一阶段**：先实现基本的多点光照控制，在多个区域布置ESP8266和ESP32，测试各节点的独立控制能力和数据传输效率
