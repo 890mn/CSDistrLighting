@@ -13,7 +13,7 @@
 #define SCREEN_HEIGHT 64
 
 #define GY30_ADDRESS 0x23
-#define OLED_I2C_ADDRESS 0x3C
+#define OLED_ADDRESS 0x3C
 
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire1, -1);
 
@@ -253,7 +253,7 @@ void setup() {
     Serial.begin(115200);
 
     Wire1.begin(23, 22);
-    display.begin(SSD1306_SWITCHCAPVCC, OLED_I2C_ADDRESS);
+    display.begin(SSD1306_SWITCHCAPVCC, OLED_ADDRESS);
 
     Wire.begin(21, 19);
     gy30.begin();
