@@ -2,6 +2,10 @@
 
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire1, -1);
 
+/* initOLED Function
+ * <> Initializes the OLED display
+ * <> 初始化OLED显示屏
+*/
 void initOLED() {
     Wire1.begin(23, 22);
     display.begin(SSD1306_SWITCHCAPVCC, OLED_ADDRESS);
@@ -9,6 +13,14 @@ void initOLED() {
     display.setTextColor(SSD1306_WHITE);
 }
 
+/* updateOLED Function
+ *
+ * <> Updates the OLED display with the current device state
+ * 
+ * <> 更新OLED显示屏以显示当前设备状态
+ * 
+ * @param device The device structure containing state information
+*/
 void updateOLED(Device device) {
     display.clearDisplay();
     display.setCursor(0, 0);
