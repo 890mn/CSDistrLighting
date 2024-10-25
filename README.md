@@ -7,6 +7,7 @@ The final goal is to complete the Main Control System to the Distribute Lighting
 
 - 2024-10-15 | [Request #1](https://github.com/890mn/CSDistrLighting/pull/1#) | Write the guide
 - 2024-10-17 | [Request #2](https://github.com/890mn/CSDistrLighting/pull/2#) | Restruct this Project and All in PlatformIO
+- 2024-10-25 | [Request #5](https://github.com/890mn/CSDistrLighting/pull/5#) | Restruct with Doxygen & HinarNoteFormat
 
 ## Project Architecture
 
@@ -39,7 +40,7 @@ About the structrue:
                                                    └───[Pin4]── WS2812
 ```
 
-About the Further Note format:
+About the Further Note format `HinarNoteFormat` : 
 
 ```cpp
 /* Format Example
