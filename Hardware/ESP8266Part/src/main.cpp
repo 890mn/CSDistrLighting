@@ -1,90 +1,30 @@
-/**
- * @file  main.cpp
- * @brief 基于ESP8266的智能灯光控制系统，支持ESP-NOW通信，RGB LED灯带控制和PID调节
- */
+#include "main.h"
+#include "pid.h"
 
-#include <ESP8266WiFi.h>
-#include <espnow.h>
-#include <ArduinoJson.h>
-#include <Adafruit_NeoPixel.h>
-#include <PID_v1.h>
+/* Device Structure
+ * <> Device structure to hold various device settings
+ * <> 包含电源状态、手动模式、光照强度等变量
+*/
+Device device = {
+    /* PowerOFF       */  false,         
+    /* Manual Mode    */  false,   
+    /* lightIntensity */  0,      
+    /* lumiManual     */  50,     
+    /* colorTemper    */  4000,      
+    /* lumiAuto       */  400    
+};
+StaticJsonDocument<185> doc;
+bool previousState = false; 
 
-#define NUMPIXELS 24 ///< 灯珠数量
-#define PIN 4		 ///< 灯珠连接的IO引脚
-#define DEADBAND 5	 ///< PID控制的死区范围
+uint8_t R = 0, G = 0, B = 0;
+Adafruit_NeoPixel strip = Adafruit_NeoPixel(NUMPIXELS, PIN, NEO_GRB + NEO_KHZ800); 
 
-uint8_t R = 0; ///< 红色通道初始值
-uint8_t G = 0; ///< 绿色通道初始值
-uint8_t B = 0; ///< 蓝色通道初始值
-
-bool previousState = false; ///< 记录设备之前的开关状态
-bool isAuto = false;		///< 是否为自动模式
-bool isOn = false;			///< 当前设备是否打开
-
-uint16_t light = 0;		  ///< 当前环境光强度
-uint8_t power = 50;		  ///< 灯光亮度（0-100）
-uint16_t kelvin = 4000;	  ///< 色温（K）
-uint16_t luminance = 400; ///< 目标亮度
-
-// PID控制参数
-double Input;											   ///< 输入值，即当前环境光强度
-double Output;											   ///< PID控制输出值，用于控制灯光亮度
-double Setpoint;										   ///< 目标值，即期望的光强度
-double Kp = 0.02;										   ///< PID控制器的比例系数
-double Ki = 0.05;										   ///< PID控制器的积分系数
-double Kd = 0.01;										   ///< PID控制器的微分系数
-PID myPID(&Input, &Output, &Setpoint, Kp, Ki, Kd, DIRECT); ///< PID控制器对象
-
-double smoothOutput = 0; ///< 平滑输出值，用于减缓输出波动
-double alpha = 0.2;		 ///< 平滑系数，用于输出值的滤波
-
-StaticJsonDocument<185> doc; ///< 用于处理接收的JSON数据
-
-Adafruit_NeoPixel strip = Adafruit_NeoPixel(NUMPIXELS, PIN, NEO_GRB + NEO_KHZ800); ///< RGB灯带控制对象
-
-/**
- * @brief 将色温（Kelvin）转换为RGB值
- * @param K 色温，范围为2700K至6500K
- * @note 该函数将颜色温度转换为对应的RGB值，并将结果存储在全局变量R、G、B中
- */
-void kelvinToRGB(uint16_t K) 
-{
-	if (K < 2700 || K > 6500) {
-		return;
-	}
-
-	float temp = K / 100.0;
-	float red, green, blue;
-
-	if (temp <= 66) {
-		red = 255;
-		green = temp;
-		green = 99.4708025861 * log(green) - 161.1195681661;
-
-		if (temp <= 19) {
-			blue = 0;
-		}
-		else {
-			blue = temp - 10;
-			blue = 138.5177312231 * log(blue) - 305.0447927307;
-		}
-	}
-	else {
-		red = temp - 60;
-		red = 329.698727446 * pow(red, -0.1332047592);
-		green = temp - 60;
-		green = 288.1221695283 * pow(green, -0.0755148492);
-		blue = 255;
-	}
-
-	// 确保RGB值在0-255范围内
-	R = constrain(red, 0, 255);
-	G = constrain(green, 0, 255);
-	B = constrain(blue, 0, 255);
-}
-
-/**
- * @brief 设置灯光的亮度
+/* setPower Function
+ *
+ * <> 设置灯光的亮度
+ * 
+ * <> Sets brightness of the light
+ * 
  * @param P 亮度值，范围0到255
  * @note 该函数将亮度值应用到灯带的所有灯珠
  */
@@ -93,8 +33,12 @@ void setPower(uint8_t P)
 	strip.setBrightness(P);
 }
 
-/**
- * @brief 设置RGB灯带的颜色
+/* setRGB Function
+ *
+ * <> 设置RGB灯带的颜色
+ *
+ * <> Sets RGB color for the LED strip
+ * 
  * @param red 红色通道值
  * @param green 绿色通道值
  * @param blue 蓝色通道值
@@ -107,8 +51,12 @@ void setRGB(uint8_t red, uint8_t green, uint8_t blue)
 	}
 }
 
-/**
- * @brief 打开灯光
+/* On Function
+ * 
+ * <> 打开灯光
+ * 
+ * <> Turns on the light
+ * 
  * @note 设置亮度为100%，并应用当前RGB颜色到灯带
  */
 void On()
@@ -118,8 +66,12 @@ void On()
 	strip.show();
 }
 
-/**
- * @brief 关闭灯光
+/* Off Function
+ * 
+ * <> 关闭灯光
+ * 
+ * <> Turns off the light
+ * 
  * @note 将灯光亮度设置为0并关闭所有像素的颜色
  */
 void Off()
@@ -129,8 +81,12 @@ void Off()
 	strip.show();
 }
 
-/**
- * @brief 接收到ESP-NOW数据时的回调函数
+/* OnDataRecv Function
+ * 
+ * <> 接收到ESP-NOW数据时的回调函数
+ * 
+ * <> Callback function for received ESP-NOW data
+ * 
  * @param mac 发送者的MAC地址
  * @param incomingData 接收到的数据
  * @param len 数据长度
@@ -148,18 +104,18 @@ void OnDataRecv(uint8_t *mac, uint8_t *incomingData, uint8_t len)
 	DeserializationError error = deserializeJson(doc, incomingData, len);
 
 	if (!error) {
-		isOn = doc["on"];
-		light = doc["light"];
-		power = doc["power"];
-		isAuto = doc["auto"];
-		kelvin = doc["kelvin"];
-		luminance = doc["luminance"];
-		Input = light;
-		Setpoint = luminance;
+		device.modeSwitch = doc["on"];
+		device.lightIntensity = doc["light"];
+		device.lumiManual = doc["power"];
+		device.powerStatus = doc["auto"];
+		device.colorTemper = doc["kelvin"];
+		device.lumiAuto = doc["luminance"];
+		Input = device.lightIntensity;
+		Setpoint = device.lumiAuto;
 
-		if (isOn != previousState) {
-			isOn ? On() : Off();
-			previousState = isOn;
+		if (device.modeSwitch != previousState) {
+			device.modeSwitch ? On() : Off();
+			previousState = device.modeSwitch;
 		}
 	}
 	else {
@@ -168,8 +124,12 @@ void OnDataRecv(uint8_t *mac, uint8_t *incomingData, uint8_t len)
 	}
 }
 
-/**
- * @brief 初始化系统，包括ESP-NOW、串口通信和RGB灯带
+/* setup Function
+ * 
+ * <> 初始化系统，包括ESP-NOW、串口通信和RGB灯带
+ * 
+ * <> Initializes system, including ESP-NOW, serial communication, and RGB LED strip
+ * 
  * @note 该函数会设置PID控制器的模式，初始化ESP-NOW通信并设置回调函数
  */
 void setup()
@@ -180,7 +140,7 @@ void setup()
 	myPID.SetMode(AUTOMATIC);
 	myPID.SetSampleTime(1000); // 采样周期为1秒
 
-	kelvinToRGB(kelvin);
+	kelvinToRGB(device.colorTemper);
 	WiFi.mode(WIFI_STA); // 设置WIFI为STA模式
 	WiFi.disconnect();	 // 断开WiFi连接
 
@@ -197,24 +157,28 @@ void setup()
 	strip.begin(); // 初始化灯带
 }
 
-/**
- * @brief 主循环函数，处理自动和手动模式的灯光控制
+/* loop Function
+ * 
+ * <> 主循环函数，处理自动和手动模式的灯光控制
+ * 
+ * <> Main loop to manage light control in automatic and manual modes
+ * 
  * @note 当设备处于打开状态时，该函数会根据模式执行自动或手动控制
  */
 void loop()
 {
 	delay(1000);
 
-	if (isOn) {
-		if (isAuto) {
+	if (device.modeSwitch) {
+		if (device.powerStatus) {
 			myPID.Compute();  // 进行PID计算
 			setPower(Output); // 根据PID输出设置灯光亮度
 		}
 		else {
-			setPower(map(power, 0, 100, 0, 255)); // 手动模式下的亮度设置
+			setPower(map(device.lumiManual, 0, 100, 0, 255)); // 手动模式下的亮度设置
 		}
 
-		kelvinToRGB(kelvin); // 设置颜色温度对应的RGB值
+		kelvinToRGB(device.colorTemper); // 设置颜色温度对应的RGB值
 		setRGB(R, G, B);
 		strip.show();
 	}

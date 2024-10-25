@@ -10,10 +10,10 @@
 uint8_t R = 0;
 uint8_t G = 0;
 uint8_t B = 0;
-bool isOn=false;
+bool modeSwitch=false;
 uint16_t light=0;
 uint8_t power=50;
-bool isAuto=false;
+bool powerStatus=false;
 uint16_t kelvin=4000;
 uint16_t luminance=400;
 bool previousState = false; // 假设这是一个全局变量
@@ -107,33 +107,33 @@ void OnDataRecv(uint8_t * mac, uint8_t *incomingData, uint8_t len) {
   DeserializationError error = deserializeJson(doc, incomingData, len);
   
   if (!error) {
-    isOn = doc["on"];
+    modeSwitch = doc["on"];
     light = doc["light"];
     power = doc["power"];
-    isAuto = doc["auto"];
+    powerStatus = doc["auto"];
     kelvin = doc["kelvin"];
     luminance = doc["luminance"];
     Input=light;
     Setpoint=luminance;
-    if(isOn != previousState) { // 检查状态是否改变
-        if(isOn) {
+    if(modeSwitch != previousState) { // 检查状态是否改变
+        if(modeSwitch) {
             On(); // 如果isOn变为true，打开设备
         } else {
             Off(); // 如果isOn变为false，关闭设备
         }
-        previousState = isOn; // 更新状态记录
+        previousState = modeSwitch; // 更新状态记录
     }
     // 打印解析得到的数据
      Serial.print("PreviousState: ");
      Serial.println(previousState);
      Serial.print("On: ");
-     Serial.println(isOn);
+     Serial.println(modeSwitch);
      Serial.print("Light: ");
      Serial.println(light);
      Serial.print("Power: ");
      Serial.println(power);
      Serial.print("Auto: ");
-     Serial.println(isAuto);
+     Serial.println(powerStatus);
      Serial.print("Kelvin: ");
      Serial.println(kelvin);
      Serial.print("Luminance: ");
@@ -176,8 +176,8 @@ void setup()
 void loop()
 {
   delay(1000);
-  if(isOn){ 
-    if(isAuto){
+  if(modeSwitch){ 
+    if(powerStatus){
         // if ( < DEADBAND && output > -DEADBAND) {
         //   output = 0;
         // }
