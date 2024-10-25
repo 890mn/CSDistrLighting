@@ -4,12 +4,12 @@
 #include <ESP8266WiFi.h>
 #include <espnow.h>
 #include <ArduinoJson.h>
-#include <Adafruit_NeoPixel.h>
-#include <PID_v1.h>
 
 #define NUMPIXELS 24
 #define PIN 4	
 #define DEADBAND 5
+
+extern uint8_t R, G, B;
 
 struct Device {
     /* <> PowerON - True / PowerOFF - False 
@@ -48,7 +48,5 @@ struct Device {
      */
     int lumiAuto;
 };
-
-extern uint8_t R, G, B;
 
 #endif
