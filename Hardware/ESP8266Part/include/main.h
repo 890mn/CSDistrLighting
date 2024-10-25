@@ -2,8 +2,6 @@
 #define __MAIN_H
 
 #include <ESP8266WiFi.h>
-#include <espnow.h>
-#include <ArduinoJson.h>
 
 #define NUMPIXELS 24
 #define PIN 4	
