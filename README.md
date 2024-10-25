@@ -40,7 +40,7 @@ About the structrue:
                                                    └───[Pin4]── WS2812
 ```
 
-About the Further Note format `HinarNoteFormat` : 
+About the Further Note format `HinarNoteFormat` :
 
 ```cpp
 /* Format Example
