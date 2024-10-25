@@ -3,57 +3,100 @@
 This Project is about the Control System of Distributed Lighting (CSDL) Based on ESP32 & ESP8266.
 The final goal is to complete the Main Control System to the Distribute Lighting.
 
-## Project Progress
+## Current Progress
 
 - 2024-10-15 | [Request #1](https://github.com/890mn/CSDistrLighting/pull/1#) | Write the guide
 - 2024-10-17 | [Request #2](https://github.com/890mn/CSDistrLighting/pull/2#) | Restruct this Project and All in PlatformIO
 
+## Project Architecture
 
-## Project Structure
+About the document composition:
 
 ```plaintext
 CSDistrLighting
-├─ Hardware
-│   ├─ ESP32Part(platformIO)
-│   └─ ESP8266Part(platformIO)
-├─ Software
-│   └─ WebPart
-├─ Historical-Legacy
-│   ├─ esp32(microPython)
-│   └─ esp8266(arduinoIDE)
-├─ Pic
-├─ 入门指南-上.md
-└─ 入门指南-下.md
+ ├─ Hardware
+ │   ├─ ESP32Part   (platformIO)
+ │   └─ ESP8266Part (platformIO)
+ ├─ Software
+ │   └─ WebPart
+ ├─ Historical-Legacy
+ │   ├─ esp32       (microPython)
+ │   └─ esp8266     (arduinoIDE)
+ ├─ Pic
+ ├─ 入门指南-上.md
+ └─ 入门指南-下.md
+```
+
+About the structrue:
+
+```plaintext
+
+  Phone/Web ─────[BLE]──────┐
+                          ESP32──[ESP-NOW]─┬─ 1·ESP8266
+  GY30 ──[0x23]──┬──[I2C]───┘              │       └───[Pin4]── WS2812
+  OLED ──[0x3C]──┘                         ├─ ...
+                                           └─ N·ESP8266 
+                                                   └───[Pin4]── WS2812
+```
+
+About the Further Note format:
+
+```cpp
+/* Format Example
+ * <> The range of this part may occur
+ * <> 关于对应变量的简述
+ * <> About which Device it includes
+*/ 
+```
+
+For Example:
+
+```cpp
+struct Device {
+    /* <> PowerON - True / PowerOFF - False 
+     * <> 设备开关状态 
+     * <> Web -[BLE]-> ESP32 -[ESP-NOW]-> ESP8266
+     */ 
+    bool powerStatus;  
+    
+    /* <> Auto Mode - True / Manual Mode - False
+     * <> 模式切换 对应自动/手动调光模式
+     * <> Web -[BLE]-> ESP32
+     */ 
+    bool modeSwitch;
+
+    ...
+}
 ```
 
 ## Current direction
 
 - **第一阶段：**
-   - 基于接手项目资料整理入门指南
-   - 重构项目结构
-      - 硬件统一 VS Code + PlatformIO 开发
-      - 软件 uni-app 开发  
+  - 基于接手项目资料整理入门指南
+  - 重构项目结构
+    - 硬件统一 VS Code + PlatformIO 开发
+    - 软件 uni-app 开发  
 
 - **第二阶段：[Current Stage]**
-   - **调研市场LED产品并分析可行性方案**
-      - 对市场常见灯具进行分类总结，表格罗列功能、成本、是否带有资料等内容
-      - 与当前设计的5050规格RGB相比是否有可替代的产品？
-         - 有 -> 对新灯管进行电路设计并尝试移植当前逻辑
-         - 无 -> 设计220v降压模块使用DC供电
+  - **调研市场LED产品并分析可行性方案**
+    - 对市场常见灯具进行分类总结，表格罗列功能、成本、是否带有资料等内容
+    - 与当前设计的5050规格RGB相比是否有可替代的产品？
+      - 有 -> 对新灯管进行电路设计并尝试移植当前逻辑
+      - 无 -> 设计220v降压模块使用DC供电
 
-   - **优化使用体验 | 熟悉markdown语法**
-      - 顶层抽象出总结可能的场景，不涉及底层实现 -> 顶层markdown文档
-      - 底层基于顶层设想初步构建代码块，需要框架易于维护，但不一定要详细 [例如可将一些不懂的用注释伪代码标明] -> 底层markdown文档
+  - **优化使用体验 | 熟悉markdown语法**
+    - 顶层抽象出总结可能的场景，不涉及底层实现 -> 顶层markdown文档
+    - 底层基于顶层设想初步构建代码块，需要框架易于维护，但不一定要详细 [例如可将一些不懂的用注释伪代码标明] -> 底层markdown文档
 
-   - **完善单点灯光控制 | 熟悉cpp编程调试**
-      - ESP8266 LED参数设置、功能测试、ESP-NOW通信
-      - ESP32 主控逻辑、BLE通信、ESP-NOW通信、OLED调试参数
-      - Web 模块搭建、调试理解
+  - **完善单点灯光控制 | 熟悉cpp编程调试**
+    - ESP8266 LED参数设置、功能测试、ESP-NOW通信
+    - ESP32 主控逻辑、BLE通信、ESP-NOW通信、OLED调试参数
+    - Web 模块搭建、调试理解
 
 - **第三阶段:**
-   - 引入多传感器并设计**分布式**控制
-   - 引入多光源并设计**分布式**部署
-   - ...
+  - 引入多传感器并设计**分布式**控制
+  - 引入多光源并设计**分布式**部署
+  - ...
 
 ## Project Design
 
