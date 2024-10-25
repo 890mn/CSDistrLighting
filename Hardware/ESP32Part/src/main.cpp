@@ -1,30 +1,18 @@
 #include <WiFi.h>
-#include <esp_now.h>
 #include <Wire.h>
-#include <ArduinoJson.h>
-#include <Adafruit_GFX.h>
-#include <Adafruit_SSD1306.h>
+#include <esp_now.h>
+
 #include <BLEDevice.h>
 #include <BLEServer.h>
 #include <BLEUtils.h>
 #include <BLE2902.h>
 
-#define SCREEN_WIDTH 128
-#define SCREEN_HEIGHT 64
+#include <ArduinoJson.h>
+
+#include "main.h"
+#include "oled.h"
 
 #define GY30_ADDRESS 0x23
-#define OLED_ADDRESS 0x3C
-
-Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire1, -1);
-
-struct Device {
-    bool on;
-    int light;
-    int power;
-    bool autoMode;
-    int kelvin;
-    int luminance;
-};
 
 Device device         = {false, 0, 50, false, 4000, 400};
 uint8_t peerAddress[] = {0xCC, 0x50, 0xE3, 0x74, 0xF5, 0x1A};
@@ -209,25 +197,6 @@ void sendBLEData() {
     }
 }
 
-void updateOLED() {
-    display.clearDisplay();
-    display.setTextSize(1);
-    display.setTextColor(SSD1306_WHITE);
-    display.setCursor(0, 0);
-    display.print(device.on ? "Light On" : "Light Off");
-    display.setCursor(0, 10);
-    display.printf("Light: %d Lx", device.light);
-    display.setCursor(0, 20);
-    display.printf("Power: %d %%", device.power);
-    display.setCursor(0, 30);
-    display.print(device.autoMode ? "Auto Mode" : "Manual Mode");
-    display.setCursor(0, 40);
-    display.printf("Kelvin: %d K", device.kelvin);
-    display.setCursor(0, 50);
-    display.printf("Luminance: %d lm", device.luminance);
-    display.display();
-}
-
 void sendESPNowData() {
     device.light = (int)gy30.getLightLevel();
     StaticJsonDocument<200> jsonDoc;
@@ -252,9 +221,8 @@ void sendESPNowData() {
 void setup() {
     Serial.begin(115200);
 
-    Wire1.begin(23, 22);
-    display.begin(SSD1306_SWITCHCAPVCC, OLED_ADDRESS);
-
+    initOLED();
+    
     Wire.begin(21, 19);
     gy30.begin();
 
@@ -266,6 +234,6 @@ void setup() {
 void loop() {
     sendESPNowData();
     sendBLEData();
-    updateOLED();
+    updateOLED(device);
     delay(1000);
 }
