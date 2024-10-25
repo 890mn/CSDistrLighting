@@ -1,8 +1,13 @@
 #ifndef __MAIN_H
 #define __MAIN_H
 
-#include <Wire.h>
-#include <ArduinoJson.h>
+#include <ESP8266WiFi.h>
+
+#define NUMPIXELS 24
+#define PIN 4	
+#define DEADBAND 5
+
+extern uint8_t R, G, B;
 
 struct Device {
     /* <> PowerON - True / PowerOFF - False 
@@ -41,6 +46,5 @@ struct Device {
      */
     int lumiAuto;
 };
-extern Device device;
 
 #endif

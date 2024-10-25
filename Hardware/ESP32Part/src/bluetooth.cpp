@@ -4,6 +4,14 @@ bool deviceConnected                 = false;
 BLEServer *bleServer                 = nullptr;
 BLECharacteristic *bleCharacteristic = nullptr;
 
+/* initBLE Function
+ *
+ * <> Initializes BLE with the given name
+ * 
+ * <> 根据提供的名称初始化BLE
+ * 
+ * @param name The name of the BLE device
+*/
 void initBLE(const char* name) {
     BLEDevice::init(name);
     bleServer = BLEDevice::createServer();
@@ -28,6 +36,10 @@ void initBLE(const char* name) {
     Serial.println("BLE Advertising started");
 }
 
+/* sendBLEData Function
+ * <> Sends data over BLE
+ * <> 通过BLE发送数据
+*/
 void sendBLEData() {
     if (deviceConnected) {
         StaticJsonDocument<200> jsonDoc;

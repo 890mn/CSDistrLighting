@@ -14,6 +14,10 @@
 extern bool deviceConnected;
 extern BLECharacteristic *bleCharacteristic;
 
+/* MyServerCallbacks Class
+ * <> Callback class for handling BLE server connection events
+ * <> 用于处理BLE服务器连接事件的回调类
+*/
 class MyServerCallbacks : public BLEServerCallbacks {
     void onConnect(BLEServer* pServer) {
         deviceConnected = true;
@@ -27,6 +31,10 @@ class MyServerCallbacks : public BLEServerCallbacks {
     }
 };
 
+/* MyCallbacks Class
+ * <> Callback class for handling BLE characteristic write events
+ * <> 用于处理BLE特征写入事件的回调类
+*/
 class MyCallbacks : public BLECharacteristicCallbacks {
     void onWrite(BLECharacteristic *pCharacteristic) {
         std::string value = pCharacteristic->getValue();
@@ -82,7 +90,20 @@ class MyCallbacks : public BLECharacteristicCallbacks {
     }
 };
 
+/* initBLE Function
+ *
+ * <> Initializes BLE with the given name
+ * 
+ * <> 根据提供的名称初始化BLE
+ * 
+ * @param name The name of the BLE device
+*/
 void initBLE(const char* name);
+
+/* sendBLEData Function
+ * <> Sends data over BLE
+ * <> 通过BLE发送数据
+*/
 void sendBLEData();
 
 #endif
