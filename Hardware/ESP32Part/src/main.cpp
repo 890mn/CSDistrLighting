@@ -1,20 +1,8 @@
-#include <WiFi.h>
-#include <Wire.h>
-#include <esp_now.h>
-
-#include <BLEDevice.h>
-#include <BLEServer.h>
-#include <BLEUtils.h>
-#include <BLE2902.h>
-
-#include <ArduinoJson.h>
-
 #include "main.h"
 #include "oled.h"
+#include "gy30.h"
 
-#define GY30_ADDRESS 0x23
-
-Device device         = {false, 0, 50, false, 4000, 400};
+Device device         = {false, false, 0, 50, 4000, 400};
 uint8_t peerAddress[] = {0xCC, 0x50, 0xE3, 0x74, 0xF5, 0x1A};
 
 #define SERVICE_UUID        "6E400000-B5A3-F393-E0A9-E50E24DCCA9E"
@@ -28,36 +16,6 @@ void onSent(const uint8_t *mac_addr, esp_now_send_status_t status) {
     Serial.print("\r\nLast Packet Send Status: ");
     Serial.println(status == ESP_NOW_SEND_SUCCESS ? "Delivery Success" : "Delivery Fail");
 }
-
-class GY30 {
-public:
-    void begin() {
-        Wire.beginTransmission(GY30_ADDRESS);
-        Wire.write(0x01);
-        Wire.endTransmission();
-
-        Wire.beginTransmission(GY30_ADDRESS);
-        Wire.write(0x07);
-        Wire.endTransmission();
-
-        Wire.beginTransmission(GY30_ADDRESS);
-        Wire.write(0x10);
-        Wire.endTransmission();
-    }
-
-    float getLightLevel() {
-        uint16_t data = 0;
-        Wire.requestFrom(GY30_ADDRESS, 2);
-        if (Wire.available() == 2) {
-            data = Wire.read();
-            data <<= 8;
-            data |= Wire.read();
-        }
-        return data / 1.2;
-    }
-};
-
-GY30 gy30;
 
 class MyServerCallbacks : public BLEServerCallbacks {
     void onConnect(BLEServer* pServer) {
@@ -198,7 +156,7 @@ void sendBLEData() {
 }
 
 void sendESPNowData() {
-    device.light = (int)gy30.getLightLevel();
+    device.light = (int)updateGY30();
     StaticJsonDocument<200> jsonDoc;
     jsonDoc["on"] = device.on;
     jsonDoc["light"] = device.light;
@@ -222,10 +180,7 @@ void setup() {
     Serial.begin(115200);
 
     initOLED();
-    
-    Wire.begin(21, 19);
-    gy30.begin();
-
+    initGY30();
     initWiFi();
     initESPNow();
     initBLE("LIGHT-BLE");
