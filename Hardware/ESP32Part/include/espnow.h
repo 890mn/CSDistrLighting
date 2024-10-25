@@ -1,6 +1,9 @@
 #ifndef __ESPNOW_H
 #define __ESPMOW_H
 
+#include <WiFi.h>
+#include <esp_now.h>
+
 #include "main.h"
 #include "gy30.h"
 

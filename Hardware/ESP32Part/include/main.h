@@ -2,9 +2,6 @@
 #define __MAIN_H
 
 #include <Wire.h>
-#include <WiFi.h>
-#include <esp_now.h>
-
 #include <ArduinoJson.h>
 
 struct Device {
