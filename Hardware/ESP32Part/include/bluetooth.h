@@ -91,8 +91,11 @@ class MyCallbacks : public BLECharacteristicCallbacks {
 };
 
 /* initBLE Function
+ *
  * <> Initializes BLE with the given name
+ * 
  * <> 根据提供的名称初始化BLE
+ * 
  * @param name The name of the BLE device
 */
 void initBLE(const char* name);
