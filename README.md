@@ -3,7 +3,7 @@
 This Project is about the Control System of Distributed Lighting (CSDL) Based on ESP32 & ESP8266.  
 The final goal is to complete the Main Control System to the Distribute Lighting.
 
-- 第一次了解本项目？ -> 请从这里开始 [入门指南](Docs/README.md)
+- 第一次了解本项目/没有安装环境？ -> 请从 [这里](Docs/入门指南-上.md) 开始
 
 ## 项目进度 | Work Sync
 
@@ -27,11 +27,11 @@ CSDistrLighting
  │   └─ esp8266 | arduinoIDE
  ├─ Docs
  │   ├─ Function
+ │   ├─ Research
  │   ├─ Pic
  │   ├─ 入门指南-上.md
- │   ├─ 入门指南-下.md
- │   └─ README.md | 入门指南
- └─ README.md | 项目指南
+ │   └─ 入门指南-下.md
+ └─ README.md
 ```
 
 About the structrue:
