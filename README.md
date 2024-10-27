@@ -1,6 +1,6 @@
 # CSDistrLighting
 
-This Project is about the Control System of Distributed Lighting (CSDL) Based on ESP32 & ESP8266.
+This Project is about the Control System of Distributed Lighting (CSDL) Based on ESP32 & ESP8266.  
 The final goal is to complete the Main Control System to the Distribute Lighting.
 
 - 第一次了解本项目？ -> 请从这里开始 [入门指南](Docs/README.md)
@@ -85,17 +85,16 @@ struct Device {
     - [x] 软件 uni-app 开发  
 
 - [ ] **第二阶段：**
-  - **调研市场LED产品并分析可行性方案**
-    - [ ] 对市场常见灯具进行分类总结，表格罗列功能、成本等内容
-    - 使用
-      - [ ] 有 -> 对新灯管进行电路设计并尝试移植当前逻辑
-      - [X] 无 -> 设计220v降压模块使用DC供电
+  - [ ] **调研市场LED产品并分析可行性方案**
+    - [ ] 对市场常见灯具进行分类总结，表格罗列功能、成本等内容-> [调研表格](Docs/Research/sheet.md)
+    - [ ] 进一步分析可控硅调光和DALI两种调光策略 -> [调研分析](Docs/Research/Si-DALI.md)
+    - [ ] 设计组合硬件电路实施 -> [电路设计](Docs/Research/Circuit.md)
 
-  - **优化使用体验 | 熟悉markdown语法**
-    - 顶层抽象出总结可能的场景，不涉及底层实现 -> 顶层markdown文档
-    - 底层基于顶层设想初步构建代码块，需要框架易于维护，但不一定要详细 [例如可将一些不懂的用注释伪代码标明] -> 底层markdown文档
+  - [ ] **优化使用体验 | 熟悉markdown语法**
+    - [ ] 顶层抽象出总结可能的场景，不涉及底层实现 -> [顶层模型](Docs/Function/Top-level.md)
+    - [ ] 底层基于顶层设想初步构建代码块，框架易于维护 -> [底层实现](Docs/Function/Bottom-level.md)
 
-  - **完善单点灯光控制 | 熟悉cpp编程调试**
+  - [ ] **完善单点灯光控制 | 熟悉cpp编程调试**
     - ESP8266 LED参数设置、功能测试、ESP-NOW通信
     - ESP32 主控逻辑、BLE通信、ESP-NOW通信、OLED调试参数
     - Web 模块搭建、调试理解
