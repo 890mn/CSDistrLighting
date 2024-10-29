@@ -6,11 +6,6 @@ const uni_modules_uvUiTools_libs_mixin_button = require("../../../uv-ui-tools/li
 const uni_modules_uvUiTools_libs_mixin_openType = require("../../../uv-ui-tools/libs/mixin/openType.js");
 const uni_modules_uvButton_components_uvButton_props = require("./props.js");
 const common_vendor = require("../../../../common/vendor.js");
-require("../../../uv-ui-tools/libs/function/index.js");
-require("../../../uv-ui-tools/libs/function/test.js");
-require("../../../uv-ui-tools/libs/function/digit.js");
-require("../../../uv-ui-tools/libs/util/route.js");
-require("../../../uv-ui-tools/libs/function/debounce.js");
 const _sfc_main = {
   name: "uv-button",
   mixins: [uni_modules_uvUiTools_libs_mixin_mpMixin.mpMixin, uni_modules_uvUiTools_libs_mixin_mixin.mixin, uni_modules_uvUiTools_libs_mixin_button.button, uni_modules_uvUiTools_libs_mixin_openType.openType, uni_modules_uvButton_components_uvButton_props.props],
@@ -202,5 +197,5 @@ function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
     Q: common_vendor.s($options.btnWrapperStyle)
   });
 }
-const Component = /* @__PURE__ */ common_vendor._export_sfc(_sfc_main, [["render", _sfc_render], ["__scopeId", "data-v-ae8e42c7"], ["__file", "C:/Users/binar/Downloads/ligth-ble/uni_modules/uv-button/components/uv-button/uv-button.vue"]]);
+const Component = /* @__PURE__ */ common_vendor._export_sfc(_sfc_main, [["render", _sfc_render], ["__scopeId", "data-v-ae8e42c7"]]);
 wx.createComponent(Component);

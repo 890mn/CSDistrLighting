@@ -3,12 +3,6 @@ const uni_modules_uvUiTools_libs_mixin_mpMixin = require("../../../uv-ui-tools/l
 const uni_modules_uvUiTools_libs_mixin_mixin = require("../../../uv-ui-tools/libs/mixin/mixin.js");
 const uni_modules_uvOverlay_components_uvOverlay_props = require("./props.js");
 const common_vendor = require("../../../../common/vendor.js");
-require("../../../uv-ui-tools/libs/function/index.js");
-require("../../../uv-ui-tools/libs/function/test.js");
-require("../../../uv-ui-tools/libs/function/digit.js");
-require("../../../uv-ui-tools/libs/util/route.js");
-require("../../../uv-ui-tools/libs/function/debounce.js");
-require("../../../uv-ui-tools/libs/function/throttle.js");
 const _sfc_main = {
   name: "uv-overlay",
   emits: ["click"],
@@ -60,5 +54,5 @@ function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
     })
   };
 }
-const Component = /* @__PURE__ */ common_vendor._export_sfc(_sfc_main, [["render", _sfc_render], ["__scopeId", "data-v-7303e1aa"], ["__file", "C:/Users/binar/Downloads/ligth-ble/uni_modules/uv-overlay/components/uv-overlay/uv-overlay.vue"]]);
+const Component = /* @__PURE__ */ common_vendor._export_sfc(_sfc_main, [["render", _sfc_render], ["__scopeId", "data-v-7303e1aa"]]);
 wx.createComponent(Component);

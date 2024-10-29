@@ -10,6 +10,7 @@ The final goal is to complete the Main Control System to the Distribute Lighting
 - 2024-10-15 | [Request #1](https://github.com/890mn/CSDistrLighting/pull/1#) | Write the guide
 - 2024-10-17 | [Request #2](https://github.com/890mn/CSDistrLighting/pull/2#) | Restruct this Project and All in PlatformIO
 - 2024-10-25 | [Request #5](https://github.com/890mn/CSDistrLighting/pull/5#) | Restruct with Doxygen & HinarNoteFormat
+- 2024-10-27 | [Request #7](https://github.com/890mn/CSDistrLighting/pull/7#) | Create basic MD frame
 
 ## 项目构成 | Project Architecture
 
@@ -87,8 +88,8 @@ struct Device {
 - [ ] **第二阶段：**
   - [ ] **调研市场LED产品并分析可行性方案**
     - [ ] 对市场常见灯具进行分类总结，表格罗列功能、成本等内容-> [调研表格](Docs/Research/sheet.md)
-    - [ ] 进一步分析可控硅调光和DALI两种调光策略 -> [调研分析](Docs/Research/Si-DALI.md)
-    - [ ] 设计组合硬件连接实施 -> [电路设计](Docs/Research/Circuit.md)
+    - [ ] 分析可控硅调光 \ DALI \ COB-LED \ RGBW 等主流调光手段 -> [调研分析](Docs/Research/DimmingMethod.md)
+    - [ ] 设计组合硬件连接测试 -> [电路设计](Docs/Research/Circuit.md)
 
   - [ ] **优化使用体验 | 熟悉markdown语法**
     - [ ] 顶层抽象出总结可能的场景，不涉及底层实现 -> [顶层模型](Docs/Function/Top-level.md)

@@ -3,12 +3,6 @@ const uni_modules_uvUiTools_libs_mixin_mpMixin = require("../../../uv-ui-tools/l
 const uni_modules_uvUiTools_libs_mixin_mixin = require("../../../uv-ui-tools/libs/mixin/mixin.js");
 const uni_modules_uvLoadingPage_components_uvLoadingPage_props = require("./props.js");
 const common_vendor = require("../../../../common/vendor.js");
-require("../../../uv-ui-tools/libs/function/index.js");
-require("../../../uv-ui-tools/libs/function/test.js");
-require("../../../uv-ui-tools/libs/function/digit.js");
-require("../../../uv-ui-tools/libs/util/route.js");
-require("../../../uv-ui-tools/libs/function/debounce.js");
-require("../../../uv-ui-tools/libs/function/throttle.js");
 const _sfc_main = {
   name: "uv-loading-page",
   mixins: [uni_modules_uvUiTools_libs_mixin_mpMixin.mpMixin, uni_modules_uvUiTools_libs_mixin_mixin.mixin, uni_modules_uvLoadingPage_components_uvLoadingPage_props.props]
@@ -55,5 +49,5 @@ function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
     })
   });
 }
-const Component = /* @__PURE__ */ common_vendor._export_sfc(_sfc_main, [["render", _sfc_render], ["__scopeId", "data-v-a1a98476"], ["__file", "C:/Users/binar/Downloads/ligth-ble/uni_modules/uv-loading-page/components/uv-loading-page/uv-loading-page.vue"]]);
+const Component = /* @__PURE__ */ common_vendor._export_sfc(_sfc_main, [["render", _sfc_render], ["__scopeId", "data-v-a1a98476"]]);
 wx.createComponent(Component);

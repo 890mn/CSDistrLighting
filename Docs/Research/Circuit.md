@@ -167,3 +167,25 @@
 ```
 
 这种设计可以将单片机的PWM信号转换为高功率LED所需的高电流，控制精确而稳定。
+
+---
+
+## 目前方案
+
+- 高照度LED
+- 220V降压电路 
+  - ESP8266 / 5V 
+  - LED / 12V / 24V
+- ESP8266
+- ESP32
+- WEB
+
+| 型号 | 价格 | 类别 |
+| --- | ---| --- |
+| Bridgelux Vesta Series | 21r x 35 | 双色温COB LED |
+| CLU038 | 118r x 1| 双色温COB LED |
+| CXM-32 | 187r x1 | 双色温COB LED |
+| WS2812 | 10/24r x 24 | RGB |
+| [XL-5050RGBW](https://item.szlcsc.com/8342963.html?fromZone=s_s__%2522Cree%2520XLamp%2520RGBW%2520LED%2520(XHP70.2)%2522) | 0.31r x 10 | RGBW |
+| [HL-LM002H384W-5B2C5(Ra4)(ANSI-4000K)](https://item.szlcsc.com/24012658.html?fromZone=s_s__%2522cob%2522) | 1.8r x 10 | 单色温 COB LED | 
+
