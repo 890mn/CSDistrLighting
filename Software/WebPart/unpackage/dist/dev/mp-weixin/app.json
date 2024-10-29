@@ -10,5 +10,10 @@
     "backgroundColor": "#f8f8f8",
     "navigationStyle": "custom"
   },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "蓝牙"
+    }
+  },
   "usingComponents": {}
 }
