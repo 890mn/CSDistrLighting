@@ -3,12 +3,6 @@ const common_vendor = require("../../../../common/vendor.js");
 const uni_modules_uvUiTools_libs_mixin_mpMixin = require("../../../uv-ui-tools/libs/mixin/mpMixin.js");
 const uni_modules_uvUiTools_libs_mixin_mixin = require("../../../uv-ui-tools/libs/mixin/mixin.js");
 const uni_modules_uvNavbar_components_uvNavbar_props = require("./props.js");
-require("../../../uv-ui-tools/libs/function/index.js");
-require("../../../uv-ui-tools/libs/function/test.js");
-require("../../../uv-ui-tools/libs/function/digit.js");
-require("../../../uv-ui-tools/libs/util/route.js");
-require("../../../uv-ui-tools/libs/function/debounce.js");
-require("../../../uv-ui-tools/libs/function/throttle.js");
 const _sfc_main = {
   name: "uv-navbar",
   mixins: [uni_modules_uvUiTools_libs_mixin_mpMixin.mpMixin, uni_modules_uvUiTools_libs_mixin_mixin.mixin, uni_modules_uvNavbar_components_uvNavbar_props.props],
@@ -135,5 +129,5 @@ function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
     A: common_vendor.n(_ctx.fixed && "uv-navbar--fixed")
   });
 }
-const Component = /* @__PURE__ */ common_vendor._export_sfc(_sfc_main, [["render", _sfc_render], ["__scopeId", "data-v-16f3e502"], ["__file", "C:/Users/binar/Downloads/ligth-ble/uni_modules/uv-navbar/components/uv-navbar/uv-navbar.vue"]]);
+const Component = /* @__PURE__ */ common_vendor._export_sfc(_sfc_main, [["render", _sfc_render], ["__scopeId", "data-v-16f3e502"]]);
 wx.createComponent(Component);

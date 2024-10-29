@@ -346,9 +346,9 @@ function type2icon(type = "success", fill = false) {
     iconName += "-fill";
   return iconName;
 }
-function priceFormat(number, decimals = 0, decimalPoint = ".", thousandsSeparator = ",") {
-  number = `${number}`.replace(/[^0-9+-Ee.]/g, "");
-  const n = !isFinite(+number) ? 0 : +number;
+function priceFormat(number2, decimals = 0, decimalPoint = ".", thousandsSeparator = ",") {
+  number2 = `${number2}`.replace(/[^0-9+-Ee.]/g, "");
+  const n = !isFinite(+number2) ? 0 : +number2;
   const prec = !isFinite(+decimals) ? 0 : Math.abs(decimals);
   const sep = typeof thousandsSeparator === "undefined" ? "," : thousandsSeparator;
   const dec = typeof decimalPoint === "undefined" ? "." : decimalPoint;

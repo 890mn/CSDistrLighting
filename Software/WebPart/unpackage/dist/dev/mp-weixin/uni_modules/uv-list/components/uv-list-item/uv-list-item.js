@@ -2,12 +2,6 @@
 const common_vendor = require("../../../../common/vendor.js");
 const uni_modules_uvUiTools_libs_mixin_mpMixin = require("../../../uv-ui-tools/libs/mixin/mpMixin.js");
 const uni_modules_uvUiTools_libs_mixin_mixin = require("../../../uv-ui-tools/libs/mixin/mixin.js");
-require("../../../uv-ui-tools/libs/function/index.js");
-require("../../../uv-ui-tools/libs/function/test.js");
-require("../../../uv-ui-tools/libs/function/digit.js");
-require("../../../uv-ui-tools/libs/util/route.js");
-require("../../../uv-ui-tools/libs/function/debounce.js");
-require("../../../uv-ui-tools/libs/function/throttle.js");
 const _sfc_main = {
   name: "uv-list-item",
   mixins: [uni_modules_uvUiTools_libs_mixin_mpMixin.mpMixin, uni_modules_uvUiTools_libs_mixin_mixin.mixin],
@@ -364,5 +358,5 @@ function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
     J: common_vendor.o((...args) => $options.onClick && $options.onClick(...args))
   });
 }
-const Component = /* @__PURE__ */ common_vendor._export_sfc(_sfc_main, [["render", _sfc_render], ["__scopeId", "data-v-d568ce32"], ["__file", "C:/Users/binar/Downloads/ligth-ble/uni_modules/uv-list/components/uv-list-item/uv-list-item.vue"]]);
+const Component = /* @__PURE__ */ common_vendor._export_sfc(_sfc_main, [["render", _sfc_render], ["__scopeId", "data-v-d568ce32"]]);
 wx.createComponent(Component);
