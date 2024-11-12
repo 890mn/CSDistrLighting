@@ -219,7 +219,7 @@ const _sfc_main = {
           leftIconColor: "white",
           ["left-text"]: "断开连接"
         }),
-        c: common_vendor.sr(modal, "1770e3cf-1", {
+        c: common_vendor.sr(modal, "1770e3cf
           "k": "modal"
         }),
         d: common_vendor.o(disconnect),
