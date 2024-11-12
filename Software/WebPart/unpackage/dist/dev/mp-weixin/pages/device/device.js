@@ -219,7 +219,7 @@ const _sfc_main = {
           leftIconColor: "white",
           ["left-text"]: "断开连接"
         }),
-        c: common_vendor.sr(modal, "19f51743-1", {
+        c: common_vendor.sr(modal, "1770e3cf
           "k": "modal"
         }),
         d: common_vendor.o(disconnect),
@@ -228,7 +228,7 @@ const _sfc_main = {
           content: "是否断开连接此设备",
           showCancelButton: true
         }),
-        f: common_vendor.sr(toast, "19f51743-2", {
+        f: common_vendor.sr(toast, "1770e3cf-2", {
           "k": "toast"
         }),
         g: common_vendor.p({
