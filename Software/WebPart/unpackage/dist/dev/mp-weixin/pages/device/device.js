@@ -1,8 +1,6 @@
 "use strict";
 const common_vendor = require("../../common/vendor.js");
 const uni_modules_uvUiTools_libs_function_index = require("../../uni_modules/uv-ui-tools/libs/function/index.js");
-require("../../uni_modules/uv-ui-tools/libs/function/test.js");
-require("../../uni_modules/uv-ui-tools/libs/function/digit.js");
 if (!Array) {
   const _easycom_uv_navbar2 = common_vendor.resolveComponent("uv-navbar");
   const _easycom_uv_modal2 = common_vendor.resolveComponent("uv-modal");
@@ -29,13 +27,13 @@ const _easycom_uv_cell_group = () => "../../uni_modules/uv-cell/components/uv-ce
 if (!Math) {
   (_easycom_uv_navbar + _easycom_uv_modal + _easycom_uv_toast + _easycom_uv_loading_page + _easycom_uv_col + _easycom_uv_row + _easycom_uv_cell + _easycom_uv_switch + _easycom_uv_slider + _easycom_uv_cell_group)();
 }
+const serviceId = "6E400000-B5A3-F393-E0A9-E50E24DCCA9E";
+const characteristicId = "6E400001-B5A3-F393-E0A9-E50E24DCCA9E";
 const _sfc_main = {
   __name: "device",
   setup(__props) {
     const operatingSystem = uni_modules_uvUiTools_libs_function_index.os();
     const deviceId = operatingSystem === "ios" ? "4338C594-C742-429C-06A5-72A76E43374F" : "30:C6:F7:43:ED:CA";
-    const serviceId = "6E400000-B5A3-F393-E0A9-E50E24DCCA9E";
-    const characteristicId = "6E400001-B5A3-F393-E0A9-E50E24DCCA9E";
     const toast = common_vendor.ref(null);
     const modal = common_vendor.ref(null);
     const loading = common_vendor.ref(false);
@@ -221,7 +219,7 @@ const _sfc_main = {
           leftIconColor: "white",
           ["left-text"]: "断开连接"
         }),
-        c: common_vendor.sr(modal, "2d576035-1", {
+        c: common_vendor.sr(modal, "19f51743-1", {
           "k": "modal"
         }),
         d: common_vendor.o(disconnect),
@@ -230,7 +228,7 @@ const _sfc_main = {
           content: "是否断开连接此设备",
           showCancelButton: true
         }),
-        f: common_vendor.sr(toast, "2d576035-2", {
+        f: common_vendor.sr(toast, "19f51743-2", {
           "k": "toast"
         }),
         g: common_vendor.p({
@@ -306,5 +304,4 @@ const _sfc_main = {
     };
   }
 };
-const MiniProgramPage = /* @__PURE__ */ common_vendor._export_sfc(_sfc_main, [["__file", "C:/Users/binar/Downloads/ligth-ble/pages/device/device.vue"]]);
-wx.createPage(MiniProgramPage);
+wx.createPage(_sfc_main);

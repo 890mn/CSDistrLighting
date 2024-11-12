@@ -4,12 +4,6 @@ const uni_modules_uvUiTools_libs_mixin_mixin = require("../../../uv-ui-tools/lib
 const uni_modules_uvIcon_components_uvIcon_icons = require("./icons.js");
 const uni_modules_uvIcon_components_uvIcon_props = require("./props.js");
 const common_vendor = require("../../../../common/vendor.js");
-require("../../../uv-ui-tools/libs/function/index.js");
-require("../../../uv-ui-tools/libs/function/test.js");
-require("../../../uv-ui-tools/libs/function/digit.js");
-require("../../../uv-ui-tools/libs/util/route.js");
-require("../../../uv-ui-tools/libs/function/debounce.js");
-require("../../../uv-ui-tools/libs/function/throttle.js");
 const _sfc_main = {
   name: "uv-icon",
   emits: ["click"],
@@ -100,5 +94,5 @@ function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
     t: common_vendor.n("uv-icon--" + _ctx.labelPos)
   });
 }
-const Component = /* @__PURE__ */ common_vendor._export_sfc(_sfc_main, [["render", _sfc_render], ["__scopeId", "data-v-b7a6dd5d"], ["__file", "C:/Users/binar/Downloads/ligth-ble/uni_modules/uv-icon/components/uv-icon/uv-icon.vue"]]);
+const Component = /* @__PURE__ */ common_vendor._export_sfc(_sfc_main, [["render", _sfc_render], ["__scopeId", "data-v-b7a6dd5d"]]);
 wx.createComponent(Component);

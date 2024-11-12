@@ -1,8 +1,6 @@
 "use strict";
 const common_vendor = require("../../common/vendor.js");
 const uni_modules_uvUiTools_libs_function_index = require("../../uni_modules/uv-ui-tools/libs/function/index.js");
-require("../../uni_modules/uv-ui-tools/libs/function/test.js");
-require("../../uni_modules/uv-ui-tools/libs/function/digit.js");
 if (!Array) {
   const _easycom_uv_navbar2 = common_vendor.resolveComponent("uv-navbar");
   const _easycom_uv_toast2 = common_vendor.resolveComponent("uv-toast");
@@ -119,7 +117,7 @@ const _sfc_main = {
           titleStyle: "color:white;",
           ["left-icon-size"]: "0"
         }),
-        b: common_vendor.sr(toast, "10563ddb-1", {
+        b: common_vendor.sr(toast, "53726069-1", {
           "k": "toast"
         }),
         c: common_vendor.o(start),
@@ -168,7 +166,7 @@ const _sfc_main = {
             c: common_vendor.t(item.RSSI),
             d: index,
             e: common_vendor.o(($event) => connect(item), index),
-            f: "10563ddb-12-" + i0 + ",10563ddb-11"
+            f: "53726069-12-" + i0 + ",53726069-11"
           };
         }),
         o: common_vendor.p({
@@ -196,5 +194,4 @@ const _sfc_main = {
     };
   }
 };
-const MiniProgramPage = /* @__PURE__ */ common_vendor._export_sfc(_sfc_main, [["__file", "C:/Users/binar/Downloads/ligth-ble/pages/index/index.vue"]]);
-wx.createPage(MiniProgramPage);
+wx.createPage(_sfc_main);
