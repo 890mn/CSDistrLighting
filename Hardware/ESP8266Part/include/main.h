@@ -3,8 +3,8 @@
 
 #include <ESP8266WiFi.h>
 
-#define NUMPIXELS 24
-#define PIN 4	
+#define NUMPIXELS 16
+#define PIN D1	
 #define DEADBAND 5
 
 extern uint8_t R, G, B;

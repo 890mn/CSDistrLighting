@@ -1,7 +1,8 @@
 #include "espnow.h"
 
 // ESP-NOW PeerToPeer protocol
-uint8_t peerAddress[] = {0xCC, 0x50, 0xE3, 0x74, 0xF5, 0x1A};
+//uint8_t peerAddress2[] = {0xCC, 0x50, 0xE3, 0x74, 0xF5, 0x1A};
+uint8_t peerAddress[] = {0xE0, 0x98, 0x06, 0x0A, 0x71, 0xE8};
 
 /* initWiFi Function
  * <> Initializes the WiFi connection for ESP-NOW
@@ -55,6 +56,19 @@ void initESPNow() {
         return;
     }
     Serial.println("Peer added successfully");
+/*
+    esp_now_peer_info_t peerInfo2;
+    memcpy(peerInfo2.peer_addr, peerAddress2, 6);
+    peerInfo2.channel = 0;  
+    peerInfo2.encrypt = false;
+    peerInfo2.ifidx = WIFI_IF_STA; 
+
+    if (esp_now_add_peer(&peerInfo2) != ESP_OK) {
+        Serial.println("Failed to add peer2");
+        return;
+    }
+    Serial.println("Peer2 added successfully");
+*/    
 }
 
 /* sendESPNowData Function
