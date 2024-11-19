@@ -18,8 +18,10 @@
     }
   },
   "compileType": "miniprogram",
-  "libVersion": "3.6.2",
-  "appid": "touristappid",
+
+  "libVersion": "3.6.3",
+  "appid": "wx84747484ac545f5a",
+
   "projectname": "ligth-ble",
   "condition": {},
   "editorSetting": {
