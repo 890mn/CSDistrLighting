@@ -117,7 +117,9 @@ const _sfc_main = {
           titleStyle: "color:white;",
           ["left-icon-size"]: "0"
         }),
+
         b: common_vendor.sr(toast, "be635ea4-1", {
+
           "k": "toast"
         }),
         c: common_vendor.o(start),
@@ -166,7 +168,9 @@ const _sfc_main = {
             c: common_vendor.t(item.RSSI),
             d: index,
             e: common_vendor.o(($event) => connect(item), index),
+
             f: "be635ea4-12-" + i0 + ",be635ea4-11"
+
           };
         }),
         o: common_vendor.p({
