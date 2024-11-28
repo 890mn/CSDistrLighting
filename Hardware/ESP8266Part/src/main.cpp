@@ -3,6 +3,14 @@
 #include "ws2812.h"
 #include "espnow_8266.h"
 
+// 呼吸灯控制相关变量
+int breathePWM = 0;    // 当前 PWM 值
+int breatheDirection = 1; // 呼吸方向：1 表示变亮，-1 表示变暗
+const int breatheStep = 2; // 每次调整的 PWM 值步长
+const int breatheMin = 0;  // 最小亮度
+const int breatheMax = 255; // 最大亮度
+const int breatheDelay = 10; // 呼吸灯每步的延时（毫秒）
+
 /* setup Function
  * 
  * <> 初始化系统，包括ESP-NOW、串口通信和RGB灯带
@@ -46,7 +54,10 @@ void setup()
  */
 void loop()
 {
-	delay(1000);
+    // 输出 PWM 信号
+    analogWrite(D2, 100);
+
+	delay(100);
 
 	if (device.modeSwitch) {
 		if (device.powerStatus) {
