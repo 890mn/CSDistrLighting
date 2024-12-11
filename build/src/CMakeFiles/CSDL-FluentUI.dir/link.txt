@@ -1,0 +1,3 @@
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E rm -f CMakeFiles\CSDL-FluentUI.dir/objects.a
+C:\MinGW\bin\ar.exe qc CMakeFiles\CSDL-FluentUI.dir/objects.a @CMakeFiles\CSDL-FluentUI.dir\objects1.rsp
+C:\MinGW\bin\g++.exe -g -mwindows -Wl,--whole-archive CMakeFiles\CSDL-FluentUI.dir/objects.a -Wl,--no-whole-archive -o D:\study_data\CS_Major\Hardware\ESP32\CSDistrLighting\Software\CSDL-FluentUI\bin\Debug\CSDL-FluentUI.exe -Wl,--out-implib,libCSDL-FluentUI.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\CSDL-FluentUI.dir\linkLibs.rsp

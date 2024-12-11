@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/">
+        <file>logo.ico</file>
+        <file>back.png</file>
+        <file>BrushGrunge.ttf</file>
+        <file>SmileySans-Oblique.ttf</file>
+    </qresource>
+    <qresource prefix="/qml">
+        <file>App.qml</file>
+        <file>InitialLayout.qml</file>
+        <file>main.qml</file>
+        <file>SimulationLayout.qml</file>
+    </qresource>
+</RCC>
