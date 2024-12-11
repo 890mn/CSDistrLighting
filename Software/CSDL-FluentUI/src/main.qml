@@ -56,10 +56,12 @@ FluWindow {
             id: startAnimation
             ParallelAnimation {
                 NumberAnimation { target: initialLayout; property: "opacity"; to: 0; duration: 400 }
+                NumberAnimation { target: simulationLayout; property: "opacity"; to: 1; duration: 400 }
             }
             ScriptAction {
                 script: {
                     initialLayout.visible = false
+                    initialLayout.opacity = 0
                     simulationLayout.visible = true
                     simulationLayout.opacity = 1
                 }
@@ -69,11 +71,13 @@ FluWindow {
         SequentialAnimation {
             id: returnAnimation
             ParallelAnimation {
+                NumberAnimation { target: initialLayout; property: "opacity"; to: 1; duration: 400 }
                 NumberAnimation { target: simulationLayout; property: "opacity"; to: 0; duration: 400 }
             }
             ScriptAction {
                 script: {
                     simulationLayout.visible = false
+                    simulationLayout.opacity = 0
                     initialLayout.visible = true
                     initialLayout.opacity = 1
                 }

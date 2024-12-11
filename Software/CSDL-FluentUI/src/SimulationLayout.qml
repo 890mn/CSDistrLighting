@@ -41,7 +41,8 @@ Item {
                     width: rightColumn.width
                     height: simulationCanvas.height
                     radius: 10
-                    border.color: "#a0a0a0"
+                    border.color: "transparent"
+                    color: "transparent"
                     border.width: 2
                     clip: true
 
@@ -52,63 +53,66 @@ Item {
                         width: rightColumn.width
                         height: parent.height
 
-
                         Column {
                             spacing: 20
                             // 先是四个长条圆角矩形顺序堆叠
                             Rectangle {
-                                width: parent.width
+                                width: rightColumn.width - 5
                                 height: 160
                                 color: "transparent"
                                 radius: 10
                                 border.color: "#a0a0a0"
                                 border.width: 2
                                 Text {
-                                    text: "区块 1"
+                                    text: qsTr("区块 1")
                                     anchors.centerIn: parent
                                     font.pixelSize: 20
+                                    font.family: smileFont.name
                                     color: globalTextColor
                                 }
                             }
                             Rectangle {
-                                width: parent.width
+                                width: rightColumn.width - 5
                                 height: 160
                                 color: "transparent"
                                 radius: 10
                                 border.color: "#a0a0a0"
                                 border.width: 2
                                 Text {
-                                    text: "区块 2"
+                                    text: qsTr("区块 2")
                                     anchors.centerIn: parent
                                     font.pixelSize: 20
+                                    font.family: smileFont.name
                                     color: globalTextColor
                                 }
                             }
                             Rectangle {
-                                width: rightRect.width
+                                width: rightColumn.width - 5
                                 height: 160
                                 color: "transparent"
                                 radius: 10
                                 border.color: "#a0a0a0"
                                 border.width: 2
                                 Text {
-                                    text: "区块 3"
+                                    text: qsTr("区块 3")
                                     anchors.centerIn: parent
                                     font.pixelSize: 20
+                                    font.family: smileFont.name
                                     color: globalTextColor
                                 }
                             }
                             Rectangle {
-                                width: rightRect.width - 40
+                                width: rightColumn.width - 5
                                 height: 160
                                 color: "transparent"
                                 radius: 10
                                 border.color: "#a0a0a0"
                                 border.width: 2
                                 Text {
-                                    text: "区块 4"
+                                    text: qsTr("区块 4")
                                     anchors.centerIn: parent
                                     font.pixelSize: 20
+                                    font.family: smileFont.name
                                     color: globalTextColor
                                 }
                             }
@@ -118,12 +122,14 @@ Item {
                                 FluFilledButton {
                                     text: qsTr("按钮 1")
                                     font.pixelSize: 20
+                                    font.family: smileFont.name
                                     implicitWidth: rightRect.width / 2 - 20
                                     implicitHeight: font.pixelSize * 1.7
                                 }
                                 FluFilledButton {
                                     text: qsTr("按钮 2")
                                     font.pixelSize: 20
+                                    font.family: smileFont.name
                                     implicitWidth: rightRect.width / 2 - 20
                                     implicitHeight: font.pixelSize * 1.7
                                 }
@@ -133,6 +139,7 @@ Item {
                                 FluFilledButton {
                                     text: qsTr("按钮 3")
                                     font.pixelSize: 20
+                                    font.family: smileFont.name
                                     implicitWidth: rightRect.width - 20
                                     implicitHeight: font.pixelSize * 1.7
                                 }
@@ -148,18 +155,44 @@ Item {
             width: parent.width
             height: parent.height * 0.1
             Layout.fillWidth: true
+            spacing: 10
 
-            // 左边区域
-            Column {
-                Layout.preferredWidth: parent.width * 0.75
-                // 这里可以放画布的参数
-                FluText {
-                    text: "画布参数"
+            Rectangle {
+                width: mainWindow.width / 4
+                color: "transparent"
+                border.color: "transparent"
+                Text {
+                    text: qsTr("区块 1")
+                    anchors.centerIn: parent
                     font.pixelSize: 20
+                    font.family: smileFont.name
                     color: globalTextColor
                 }
             }
-
+            Rectangle {
+                width: mainWindow.width / 4
+                color: "transparent"
+                border.color: "transparent"
+                Text {
+                    text: qsTr("区块 2")
+                    anchors.centerIn: parent
+                    font.pixelSize: 20
+                    font.family: smileFont.name
+                    color: globalTextColor
+                }
+            }
+            Rectangle {
+                width: mainWindow.width / 4
+                color: "transparent"
+                border.color: "transparent"
+                Text {
+                    text: qsTr("区块 3")
+                    anchors.centerIn: parent
+                    font.pixelSize: 20
+                    font.family: smileFont.name
+                    color: globalTextColor
+                }
+            }
 
             FluFilledButton {
                 text: qsTr("返回主页 / Back")

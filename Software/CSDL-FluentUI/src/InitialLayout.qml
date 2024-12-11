@@ -17,7 +17,7 @@ Item {
         FluText {
             text: qsTr("仿真 · 照度模拟")
             color: cosFTextColor
-            font.pixelSize: mainWindow.height / 10
+            font.pixelSize: mainWindow.height / 11
             font.family: smileFont.name
         }
 
@@ -40,10 +40,11 @@ Item {
         Row {
             id: buttonRow
             spacing: 20
+            baselineOffset: 20
             FluFilledButton {
                 id: startSimButton
                 text: qsTr("开始仿真 / Start")
-                font.pixelSize: mainWindow.height / 20
+                font.pixelSize: mainWindow.height / 22
                 font.family: smileFont.name
                 implicitWidth: font.pixelSize * text.length * 0.65
                 implicitHeight: font.pixelSize * 1.7
@@ -54,7 +55,7 @@ Item {
             }
             FluFilledButton {
                 text: qsTr("环境设置 / Setting")
-                font.pixelSize: mainWindow.height / 20
+                font.pixelSize: mainWindow.height / 22
                 font.family: smileFont.name
                 implicitWidth: font.pixelSize * text.length * 0.6
                 implicitHeight: font.pixelSize * 1.7

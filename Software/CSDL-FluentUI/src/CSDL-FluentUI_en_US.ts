@@ -20,17 +20,17 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="InitialLayout.qml" line="45"/>
+        <location filename="InitialLayout.qml" line="46"/>
         <source>开始仿真 / Start</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="InitialLayout.qml" line="56"/>
+        <location filename="InitialLayout.qml" line="57"/>
         <source>环境设置 / Setting</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="InitialLayout.qml" line="77"/>
+        <location filename="InitialLayout.qml" line="78"/>
         <source>愿你在仿真的世界沐浴五束阳光 |</source>
         <translation type="unfinished"></translation>
     </message>
@@ -38,22 +38,45 @@
 <context>
     <name>SimulationLayout</name>
     <message>
-        <location filename="SimulationLayout.qml" line="119"/>
+        <location filename="SimulationLayout.qml" line="123"/>
         <source>按钮 1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="SimulationLayout.qml" line="125"/>
+        <location filename="SimulationLayout.qml" line="130"/>
         <source>按钮 2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="SimulationLayout.qml" line="134"/>
+        <location filename="SimulationLayout.qml" line="140"/>
         <source>按钮 3</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="SimulationLayout.qml" line="67"/>
         <location filename="SimulationLayout.qml" line="165"/>
+        <source>区块 1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="SimulationLayout.qml" line="82"/>
+        <location filename="SimulationLayout.qml" line="177"/>
+        <source>区块 2</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="SimulationLayout.qml" line="97"/>
+        <location filename="SimulationLayout.qml" line="189"/>
+        <source>区块 3</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="SimulationLayout.qml" line="112"/>
+        <source>区块 4</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="SimulationLayout.qml" line="198"/>
         <source>返回主页 / Back</source>
         <oldsource>返回主页</oldsource>
         <translation type="unfinished"></translation>
