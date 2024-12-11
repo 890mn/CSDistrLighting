@@ -14,7 +14,7 @@ int main(int argc, char *argv[])
     QTranslator translator;
     const QStringList uiLanguages = QLocale::system().uiLanguages();
     for (const QString &locale : uiLanguages) {
-        const QString baseName = "CSDL-FluentUI_" + QLocale(locale).name();
+        const QString baseName = "CSDL-Si_" + QLocale(locale).name();
         if (translator.load("./i18n/"+ baseName)) {
             app.installTranslator(&translator);
             break;

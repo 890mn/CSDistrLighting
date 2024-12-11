@@ -10,12 +10,13 @@
     </message>
     <message>
         <location filename="InitialLayout.qml" line="26"/>
-        <source>基于CSDLighting的仿真验证软件开发 |</source>
+        <source>调控算法验证平台 |</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="InitialLayout.qml" line="33"/>
-        <source> Powered By Qt6 / FluentUI</source>
+        <source> Powered By Qt6</source>
+        <oldsource> Powered By Qt6 / FluentUI</oldsource>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -24,39 +25,46 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="InitialLayout.qml" line="55"/>
+        <location filename="InitialLayout.qml" line="56"/>
         <source>环境设置 / Setting</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="InitialLayout.qml" line="77"/>
+        <source>愿你在仿真的世界沐浴五束阳光 |</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>SimulationLayout</name>
     <message>
-        <location filename="SimulationLayout.qml" line="113"/>
+        <location filename="SimulationLayout.qml" line="119"/>
         <source>按钮 1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="SimulationLayout.qml" line="119"/>
+        <location filename="SimulationLayout.qml" line="125"/>
         <source>按钮 2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="SimulationLayout.qml" line="128"/>
+        <location filename="SimulationLayout.qml" line="134"/>
         <source>按钮 3</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="SimulationLayout.qml" line="152"/>
-        <source>愿你在仿真的世界沐浴五束阳光 |</source>
+        <location filename="SimulationLayout.qml" line="165"/>
+        <source>返回主页 / Back</source>
+        <oldsource>返回主页</oldsource>
         <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>main</name>
     <message>
-        <location filename="main.qml" line="10"/>
-        <source>CSDL-FluentUI-1.0</source>
+        <location filename="main.qml" line="11"/>
+        <source>CSilver</source>
+        <oldsource>CSilver.0.1</oldsource>
         <translation type="unfinished"></translation>
     </message>
 </context>
