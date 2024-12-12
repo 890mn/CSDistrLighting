@@ -1,19 +1,19 @@
 <RCC>
     <qresource prefix="/">
-        <file>logo.ico</file>
-        <file>back.png</file>
         <file>BrushGrunge.ttf</file>
         <file>SmileySans-Oblique.ttf</file>
-        <file>qml/App.qml</file>
-        <file>qml/main.qml</file>
-        <file>qml/InitialLayout.qml</file>
-        <file>qml/SimulationLayout.qml</file>
-        <file>qml/AdditionalModule.qml</file>
-        <file>qml/BottomSection.qml</file>
-        <file>qml/IndoorEnvironmentModule.qml</file>
-        <file>qml/LightSettingsModule.qml</file>
-        <file>qml/RightSection.qml</file>
-        <file>qml/SimulationCanvas.qml</file>
-        <file>qml/TopSection.qml</file>
+        <file>back.png</file>
+        <file>logo.ico</file>
+        <file>App.qml</file>
+        <file>InitialLayout.qml</file>
+        <file>SimulationLayout.qml</file>
+        <file>main.qml</file>
+        <file>TopSection.qml</file>
+        <file>SimulationCanvas.qml</file>
+        <file>RightSection.qml</file>
+        <file>AdditionalModule.qml</file>
+        <file>IndoorEnvironmentModule.qml</file>
+        <file>LightSettingsModule.qml</file>
+        <file>BottomSection.qml</file>
     </qresource>
 </RCC>

@@ -11,7 +11,7 @@ FluLauncher {
         FluApp.windowIcon = "qrc:/logo.ico"
 
         FluRouter.routes = {
-            "/":"qrc:/qml/main.qml",
+            "/":"qrc:/main.qml",
         }
         FluRouter.navigate("/")
     }
