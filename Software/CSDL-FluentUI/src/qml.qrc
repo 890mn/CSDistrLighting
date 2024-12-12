@@ -4,11 +4,16 @@
         <file>back.png</file>
         <file>BrushGrunge.ttf</file>
         <file>SmileySans-Oblique.ttf</file>
-    </qresource>
-    <qresource prefix="/qml">
-        <file>App.qml</file>
-        <file>InitialLayout.qml</file>
-        <file>main.qml</file>
-        <file>SimulationLayout.qml</file>
+        <file>qml/App.qml</file>
+        <file>qml/main.qml</file>
+        <file>qml/initialDisplay/InitialLayout.qml</file>
+        <file>qml/simulationDisplay/BottomSection.qml</file>
+        <file>qml/simulationDisplay/SimulationLayout.qml</file>
+        <file>qml/simulationDisplay/TopSection.qml</file>
+        <file>qml/simulationDisplay/SimulationCanvas.qml</file>
+        <file>qml/simulationDisplay/RightSection.qml</file>
+        <file>qml/simulationDisplay/IndoorEnvironmentModule.qml</file>
+        <file>qml/simulationDisplay/LightSettingsModule.qml</file>
+        <file>qml/simulationDisplay/AdditionalModule.qml</file>
     </qresource>
 </RCC>
