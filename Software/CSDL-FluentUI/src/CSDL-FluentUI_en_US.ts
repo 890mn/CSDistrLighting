@@ -41,19 +41,20 @@
     </message>
     <message>
         <location filename="IndoorEnvironmentModule.qml" line="25"/>
-        <location filename="IndoorEnvironmentModule.qml" line="47"/>
-        <location filename="IndoorEnvironmentModule.qml" line="75"/>
-        <source>[%1] x [%2]</source>
+        <location filename="IndoorEnvironmentModule.qml" line="48"/>
+        <location filename="IndoorEnvironmentModule.qml" line="79"/>
+        <source>     大小 [%1] x [%2]</source>
+        <oldsource>     原点 [%1] x [%2], 大小 [%3] x [%4]</oldsource>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="IndoorEnvironmentModule.qml" line="36"/>
-        <source>X 值</source>
+        <source>宽度</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="IndoorEnvironmentModule.qml" line="64"/>
-        <source>Y 值</source>
+        <location filename="IndoorEnvironmentModule.qml" line="67"/>
+        <source>高度</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

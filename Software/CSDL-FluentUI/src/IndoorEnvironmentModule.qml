@@ -22,61 +22,67 @@ Rectangle {
 
         Text {
             id: simulationData
-            text: qsTr("[%1] x [%2]").arg(sliderX.value.toFixed(0)).arg(sliderY.value.toFixed(0))
+            text: qsTr("     大小 [%1] x [%2]").arg(sliderWidth.value.toFixed(0)).arg(sliderHeight.value.toFixed(0))
             font.pixelSize: 20
             font.bold: true
         }
 
-        // X 滑块
+        // 宽度滑块
         Row {
             spacing: 10
             width: parent.width
 
             Text {
-                text: qsTr("X 值")
+                text: qsTr("宽度")
                 font.pixelSize: 20
                 width: 80
             }
 
             Slider {
-                id: sliderX
+                id: sliderWidth
                 width: parent.width - 180
                 from: 0
                 to: 600
                 value: 300
-                onValueChanged: simulationData.text = qsTr("[%1] x [%2]").arg(value.toFixed(0)).arg(sliderY.value.toFixed(0))
+                onValueChanged: {
+                    simulationData.text = qsTr("     大小 [%1] x [%2]").arg(value.toFixed(0)).arg(sliderHeight.value.toFixed(0));
+                    simulationCanvas.updateRectangle(sliderWidth.value, sliderHeight.value);
+                }
             }
 
             Text {
-                text: sliderX.value.toFixed(0)
+                text: sliderWidth.value.toFixed(0)
                 font.pixelSize: 20
                 width: 50
                 horizontalAlignment: Text.AlignHCenter
             }
         }
 
-        // Y 滑块
+        // 高度滑块
         Row {
             spacing: 10
             width: parent.width
 
             Text {
-                text: qsTr("Y 值")
+                text: qsTr("高度")
                 font.pixelSize: 20
                 width: 80
             }
 
             Slider {
-                id: sliderY
+                id: sliderHeight
                 width: parent.width - 180
                 from: 0
                 to: 400
                 value: 200
-                onValueChanged: simulationData.text = qsTr("[%1] x [%2]").arg(sliderX.value.toFixed(0)).arg(value.toFixed(0))
+                onValueChanged: {
+                    simulationData.text = qsTr("     大小 [%1] x [%2]").arg(sliderWidth.value.toFixed(0)).arg(value.toFixed(0));
+                    simulationCanvas.updateRectangle(sliderWidth.value, sliderHeight.value);
+                }
             }
 
             Text {
-                text: sliderY.value.toFixed(0)
+                text: sliderHeight.value.toFixed(0)
                 font.pixelSize: 20
                 width: 50
                 horizontalAlignment: Text.AlignHCenter
