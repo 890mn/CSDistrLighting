@@ -18,11 +18,11 @@
 	[
 		{
 			"backtrace" : 0,
-			"id" : "fluentuiplugin::@7366c80dbef1255836ce"
+			"id" : "Script-UpdateTranslations::@145eef247bfb46b6828c"
 		},
 		{
 			"backtrace" : 0,
-			"id" : "Script-UpdateTranslations::@145eef247bfb46b6828c"
+			"id" : "fluentuiplugin::@7366c80dbef1255836ce"
 		},
 		{
 			"backtrace" : 0,

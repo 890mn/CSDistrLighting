@@ -10,19 +10,8 @@ Rectangle {
 
     property real maxX: 100 // 最大 X 轴刻度
     property real maxY: 100 // 最大 Y 轴刻度
-    property var rectangles: [] // 矩形数据 [{x: 10, y: 20, width: 30, height: 40}, ...]
-
-    property real rectWidth: 0
-    property real rectHeight: 0
-
-    onRectanglesChanged: {
-        // 根据矩形数据动态扩展坐标范围
-        for (let rect of rectangles) {
-            if (rect.x + rect.width > maxX) maxX = Math.ceil((rect.x + rect.width) / 10) * 10;
-            if (rect.y + rect.height > maxY) maxY = Math.ceil((rect.y + rect.height) / 10) * 10;
-        }
-        canvas.requestPaint();
-    }
+    property real rectWidth: 0 // 矩形宽度
+    property real rectHeight: 0 // 矩形高度
 
     onRectWidthChanged: canvas.requestPaint()
     onRectHeightChanged: canvas.requestPaint()
@@ -67,9 +56,9 @@ Rectangle {
             ctx.textAlign = "center";
 
             // X 轴刻度
-            const xStep = rectWidth ? axisWidth / rectWidth : axisWidth / 10; // 默认 10 个刻度
-            for (let i = 0; i <= rectWidth; i += rectWidth / 10 || 1) {
-                const x = padding + i * xStep;
+            const xStep = maxX / 10; // 分为 10 个刻度
+            for (let i = 0; i <= maxX; i += xStep) {
+                const x = padding + (i / maxX) * axisWidth;
                 ctx.beginPath();
                 ctx.moveTo(x, height - padding);
                 ctx.lineTo(x, height - padding + 5);
@@ -78,10 +67,10 @@ Rectangle {
             }
 
             // Y 轴刻度
-            const yStep = rectHeight ? axisHeight / rectHeight : axisHeight / 10; // 默认 10 个刻度
+            const yStep = maxY / 10; // 分为 10 个刻度
             ctx.textAlign = "right";
-            for (let j = 0; j <= rectHeight; j += rectHeight / 10 || 1) {
-                const y = height - padding - j * yStep;
+            for (let j = 0; j <= maxY; j += yStep) {
+                const y = height - padding - (j / maxY) * axisHeight;
                 ctx.beginPath();
                 ctx.moveTo(padding, y);
                 ctx.lineTo(padding - 5, y);
@@ -89,12 +78,14 @@ Rectangle {
                 ctx.fillText(j.toFixed(0), padding - 10, y + 3);
             }
 
-            // 绘制矩形（无填充，边框宽度 2）
-            ctx.strokeStyle = "#ff0000";
-            ctx.lineWidth = 2;
-            const rectX = padding;
-            const rectY = height - padding - rectHeight;
-            ctx.strokeRect(rectX, rectY, rectWidth, rectHeight);
+            // 绘制矩形（如果有数据）
+            if (rectWidth > 0 && rectHeight > 0) {
+                ctx.strokeStyle = "#00ff00";
+                ctx.lineWidth = 2;
+                const rectX = padding;
+                const rectY = height - padding - rectHeight;
+                ctx.strokeRect(rectX, rectY, rectWidth, rectHeight);
+            }
         }
     }
 }

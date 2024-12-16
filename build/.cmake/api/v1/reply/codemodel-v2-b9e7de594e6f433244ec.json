@@ -118,14 +118,14 @@
 				{
 					"directoryIndex" : 2,
 					"id" : "CSDL-FluentUI::@145eef247bfb46b6828c",
-					"jsonFile" : "target-CSDL-FluentUI-Debug-bea54ce20540029da08e.json",
+					"jsonFile" : "target-CSDL-FluentUI-Debug-2805f6fa83b81aa3276a.json",
 					"name" : "CSDL-FluentUI",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 2,
 					"id" : "CSDL-FluentUI_autogen::@145eef247bfb46b6828c",
-					"jsonFile" : "target-CSDL-FluentUI_autogen-Debug-bf67eaf104867019b0c5.json",
+					"jsonFile" : "target-CSDL-FluentUI_autogen-Debug-bdbde1ca270aa349b7a4.json",
 					"name" : "CSDL-FluentUI_autogen",
 					"projectIndex" : 0
 				},
@@ -174,7 +174,7 @@
 				{
 					"directoryIndex" : 1,
 					"id" : "fluentuiplugin::@7366c80dbef1255836ce",
-					"jsonFile" : "target-fluentuiplugin-Debug-cbe40203951bdead32c6.json",
+					"jsonFile" : "target-fluentuiplugin-Debug-a113cea42c973d211ae1.json",
 					"name" : "fluentuiplugin",
 					"projectIndex" : 1
 				},

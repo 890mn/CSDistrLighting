@@ -46,7 +46,7 @@ Rectangle {
                 value: 300
                 onValueChanged: {
                     simulationData.text = qsTr("     大小 [%1] x [%2]").arg(value.toFixed(0)).arg(sliderHeight.value.toFixed(0));
-                    simulationCanvas.updateRectangle(sliderWidth.value, sliderHeight.value);
+                    simulationCanvas.updateRectangle(value, sliderHeight.value);
                 }
             }
 
@@ -77,7 +77,7 @@ Rectangle {
                 value: 200
                 onValueChanged: {
                     simulationData.text = qsTr("     大小 [%1] x [%2]").arg(sliderWidth.value.toFixed(0)).arg(value.toFixed(0));
-                    simulationCanvas.updateRectangle(sliderWidth.value, sliderHeight.value);
+                    simulationCanvas.updateRectangle(sliderWidth.value, value);
                 }
             }
 

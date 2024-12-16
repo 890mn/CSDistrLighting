@@ -70,13 +70,20 @@ include src/CMakeFiles/CSDL-FluentUI.dir/flags.make
 
 src/CSDL-FluentUI_autogen/EWIEGA46WW/qrc_qml.cpp: D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/Software/CSDL-FluentUI/src/qml.qrc
 src/CSDL-FluentUI_autogen/EWIEGA46WW/qrc_qml.cpp: src/CMakeFiles/CSDL-FluentUI_autogen.dir/AutoRcc_qml_EWIEGA46WW_Info.json
-src/CSDL-FluentUI_autogen/EWIEGA46WW/qrc_qml.cpp: D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/Software/CSDL-FluentUI/src/back.png
-src/CSDL-FluentUI_autogen/EWIEGA46WW/qrc_qml.cpp: D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/Software/CSDL-FluentUI/src/BrushGrunge.ttf
-src/CSDL-FluentUI_autogen/EWIEGA46WW/qrc_qml.cpp: D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/Software/CSDL-FluentUI/src/SmileySans-Oblique.ttf
-src/CSDL-FluentUI_autogen/EWIEGA46WW/qrc_qml.cpp: D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/Software/CSDL-FluentUI/src/logo.ico
+src/CSDL-FluentUI_autogen/EWIEGA46WW/qrc_qml.cpp: D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/Software/CSDL-FluentUI/src/BottomSection.qml
 src/CSDL-FluentUI_autogen/EWIEGA46WW/qrc_qml.cpp: D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/Software/CSDL-FluentUI/src/App.qml
+src/CSDL-FluentUI_autogen/EWIEGA46WW/qrc_qml.cpp: D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/Software/CSDL-FluentUI/src/back.png
 src/CSDL-FluentUI_autogen/EWIEGA46WW/qrc_qml.cpp: D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/Software/CSDL-FluentUI/src/InitialLayout.qml
+src/CSDL-FluentUI_autogen/EWIEGA46WW/qrc_qml.cpp: D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/Software/CSDL-FluentUI/src/BrushGrunge.ttf
+src/CSDL-FluentUI_autogen/EWIEGA46WW/qrc_qml.cpp: D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/Software/CSDL-FluentUI/src/TopSection.qml
+src/CSDL-FluentUI_autogen/EWIEGA46WW/qrc_qml.cpp: D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/Software/CSDL-FluentUI/src/SimulationCanvas.qml
+src/CSDL-FluentUI_autogen/EWIEGA46WW/qrc_qml.cpp: D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/Software/CSDL-FluentUI/src/SmileySans-Oblique.ttf
 src/CSDL-FluentUI_autogen/EWIEGA46WW/qrc_qml.cpp: D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/Software/CSDL-FluentUI/src/SimulationLayout.qml
+src/CSDL-FluentUI_autogen/EWIEGA46WW/qrc_qml.cpp: D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/Software/CSDL-FluentUI/src/RightSection.qml
+src/CSDL-FluentUI_autogen/EWIEGA46WW/qrc_qml.cpp: D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/Software/CSDL-FluentUI/src/AdditionalModule.qml
+src/CSDL-FluentUI_autogen/EWIEGA46WW/qrc_qml.cpp: D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/Software/CSDL-FluentUI/src/logo.ico
+src/CSDL-FluentUI_autogen/EWIEGA46WW/qrc_qml.cpp: D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/Software/CSDL-FluentUI/src/IndoorEnvironmentModule.qml
+src/CSDL-FluentUI_autogen/EWIEGA46WW/qrc_qml.cpp: D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/Software/CSDL-FluentUI/src/LightSettingsModule.qml
 src/CSDL-FluentUI_autogen/EWIEGA46WW/qrc_qml.cpp: D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/Software/CSDL-FluentUI/src/main.qml
 src/CSDL-FluentUI_autogen/EWIEGA46WW/qrc_qml.cpp: D:/normal_program/QT/6.7.3/msvc2019_64/bin/rcc.exe
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=D:\study_data\CS_Major\Hardware\ESP32\CSDistrLighting\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic RCC for qml.qrc"
