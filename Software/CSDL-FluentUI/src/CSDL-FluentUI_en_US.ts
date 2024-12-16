@@ -101,7 +101,7 @@
 <context>
     <name>LightSettingsModule</name>
     <message>
-        <location filename="LightSettingsModule.qml" line="18"/>
+        <location filename="LightSettingsModule.qml" line="20"/>
         <source>光源设置</source>
         <translation type="unfinished"></translation>
     </message>

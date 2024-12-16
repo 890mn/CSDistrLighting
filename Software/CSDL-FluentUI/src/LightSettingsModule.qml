@@ -1,18 +1,20 @@
 import QtQuick 2.15
 import QtQuick.Controls 2.15
 import QtQuick.Layouts
+import FluentUI
 
 Rectangle {
     id: lightSettings
     width: parent.width - 20
-    height: 160
+    height: 210
     radius: 10
     border.color: "#a0a0a0"
+    color: "white"
 
     Column {
         anchors.fill: parent
         spacing: 10
-        padding: 10
+        padding: 20
 
         Text {
             text: qsTr("光源设置")
@@ -32,13 +34,14 @@ Rectangle {
                 width: parent.width
 
                 Text {
+                    y: 5
                     text: model.label
-                    font.pixelSize: 20
+                    font.pixelSize: 18
                     font.family: smileFont.name
-                    width: 80
+                    height: 40
                 }
 
-                Slider {
+                FluSlider {
                     id: sliderControl
                     width: parent.width - 180
                     from: model.min
@@ -46,12 +49,21 @@ Rectangle {
                     value: (model.min + model.max) / 2
                 }
 
-                Text {
+                FluTextBox {
                     text: sliderControl.value.toFixed(0)
-                    font.pixelSize: 20
+                    font.pixelSize: 16
                     font.family: smileFont.name
-                    width: 50
-                    horizontalAlignment: Text.AlignHCenter
+                    width: 80
+                    height: 30
+                    inputMethodHints: Qt.ImhDigitsOnly
+                    onEditingFinished: {
+                        let newValue = parseInt(text);
+                        if (!isNaN(newValue) && newValue >= sliderControl.from && newValue <= sliderControl.to) {
+                            sliderControl.value = newValue;
+                        } else {
+                            text = sliderControl.value.toFixed(0); // 恢复为合法值
+                        }
+                    }
                 }
             }
         }
