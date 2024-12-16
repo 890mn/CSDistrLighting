@@ -12,7 +12,7 @@
 <context>
     <name>BottomSection</name>
     <message>
-        <location filename="BottomSection.qml" line="17"/>
+        <location filename="BottomSection.qml" line="18"/>
         <source>区块 1</source>
         <translation type="unfinished"></translation>
     </message>
@@ -22,7 +22,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="BottomSection.qml" line="41"/>
+        <location filename="BottomSection.qml" line="40"/>
         <source>区块 3</source>
         <translation type="unfinished"></translation>
     </message>
@@ -41,6 +41,10 @@
     </message>
     <message>
         <location filename="IndoorEnvironmentModule.qml" line="27"/>
+        <source>       平面宽/高 [%1] x [%2] ( cm )</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="IndoorEnvironmentModule.qml" line="54"/>
         <location filename="IndoorEnvironmentModule.qml" line="100"/>
         <source>       平面宽/高 [%1] x [%2] ( Unit: cm )</source>

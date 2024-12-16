@@ -466,8 +466,8 @@ src/CMakeFiles/Script-UpdateTranslations.dir/clean:
 
 # All Build rule for target.
 src/CMakeFiles/CSDL-FluentUI.dir/all: src/CMakeFiles/CSDL-FluentUI_autogen.dir/all
-src/CMakeFiles/CSDL-FluentUI.dir/all: src/CMakeFiles/Script-UpdateTranslations.dir/all
 src/CMakeFiles/CSDL-FluentUI.dir/all: FluentUI/CMakeFiles/fluentuiplugin.dir/all
+src/CMakeFiles/CSDL-FluentUI.dir/all: src/CMakeFiles/Script-UpdateTranslations.dir/all
 src/CMakeFiles/CSDL-FluentUI.dir/all: src/CMakeFiles/CSDL-FluentUI_qmlimportscan.dir/all
 	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\CSDL-FluentUI.dir\build.make src/CMakeFiles/CSDL-FluentUI.dir/depend
 	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\CSDL-FluentUI.dir\build.make src/CMakeFiles/CSDL-FluentUI.dir/build
@@ -520,8 +520,8 @@ src/CMakeFiles/CSDL-FluentUI_qmlimportscan.dir/clean:
 # Target rules for target src/CMakeFiles/CSDL-FluentUI_autogen.dir
 
 # All Build rule for target.
-src/CMakeFiles/CSDL-FluentUI_autogen.dir/all: src/CMakeFiles/Script-UpdateTranslations.dir/all
 src/CMakeFiles/CSDL-FluentUI_autogen.dir/all: FluentUI/CMakeFiles/fluentuiplugin.dir/all
+src/CMakeFiles/CSDL-FluentUI_autogen.dir/all: src/CMakeFiles/Script-UpdateTranslations.dir/all
 src/CMakeFiles/CSDL-FluentUI_autogen.dir/all: src/CMakeFiles/CSDL-FluentUI_qmlimportscan.dir/all
 	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\CSDL-FluentUI_autogen.dir\build.make src/CMakeFiles/CSDL-FluentUI_autogen.dir/depend
 	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\CSDL-FluentUI_autogen.dir\build.make src/CMakeFiles/CSDL-FluentUI_autogen.dir/build

@@ -85,7 +85,7 @@ Rectangle {
 
             // 绘制矩形（如果有数据）
             if (rectWidth > 0 && rectHeight > 0) {
-                ctx.strokeStyle = "#00ff00";
+                ctx.strokeStyle = cosFTextColor;
                 ctx.lineWidth = 2;
                 const rectX = padding;
                 const rectY = height - padding - (rectHeight / maxY) * axisHeight;

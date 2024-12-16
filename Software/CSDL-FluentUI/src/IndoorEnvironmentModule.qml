@@ -24,7 +24,7 @@ Rectangle {
 
         Text {
             id: simulationData
-            text: qsTr("       平面宽/高 [%1] x [%2] ( Unit: cm )").arg(sliderWidth.value.toFixed(0)).arg(sliderHeight.value.toFixed(0))
+            text: qsTr("       平面宽/高 [%1] x [%2] ( cm )").arg(sliderWidth.value.toFixed(0)).arg(sliderHeight.value.toFixed(0))
             font.pixelSize: 24
             font.family: smileFont.name
             height: 40

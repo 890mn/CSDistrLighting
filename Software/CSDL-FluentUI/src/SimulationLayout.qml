@@ -22,7 +22,7 @@ Item {
         BottomSection {
             id: bottomSection
             width: parent.width
-            height: parent.height * 0.1 + 5
+            height: parent.height * 0.1
             anchors.horizontalCenter: parent.horizontalCenter
         }
     }

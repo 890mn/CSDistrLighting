@@ -5,7 +5,7 @@ import QtQuick.Layouts
 Rectangle {
     id: lightSettings
     width: parent.width - 20
-    height: 190
+    height: 160
     radius: 10
     border.color: "#a0a0a0"
 
@@ -17,6 +17,7 @@ Rectangle {
         Text {
             text: qsTr("光源设置")
             font.pixelSize: 25
+            font.family: smileFont.name
         }
 
         Repeater {
@@ -33,6 +34,7 @@ Rectangle {
                 Text {
                     text: model.label
                     font.pixelSize: 20
+                    font.family: smileFont.name
                     width: 80
                 }
 
@@ -47,6 +49,7 @@ Rectangle {
                 Text {
                     text: sliderControl.value.toFixed(0)
                     font.pixelSize: 20
+                    font.family: smileFont.name
                     width: 50
                     horizontalAlignment: Text.AlignHCenter
                 }
