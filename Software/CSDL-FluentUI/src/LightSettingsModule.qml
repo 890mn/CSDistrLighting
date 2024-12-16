@@ -12,6 +12,10 @@ Rectangle {
     color: "white"
 
     property alias lightSources: lightList.model
+    Component.onCompleted: {
+        simulationCanvas.lightSources = lightSources; // 绑定外部模型
+    }
+
 
     Column {
         anchors.fill: parent

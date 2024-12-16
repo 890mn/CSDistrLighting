@@ -8,10 +8,13 @@ Rectangle {
     border.width: 2
     color: "white"
 
-    property real maxX: 400 // 最大 X 轴刻度
+    property real maxX: 600 // 最大 X 轴刻度
     property real maxY: 400 // 最大 Y 轴刻度
+
     property real rectWidth: 0 // 矩形宽度
     property real rectHeight: 0 // 矩形高度
+
+    property var lightSources: ListModel { }
 
     onRectWidthChanged: adjustAxes()
     onRectHeightChanged: adjustAxes()
@@ -22,8 +25,8 @@ Rectangle {
     }
 
     function adjustAxes() {
-        maxX = Math.ceil(rectWidth / 10) * 10 + 50; // 额外保留空间
-        maxY = Math.ceil(rectHeight / 10) * 10 + 50; // 额外保留空间
+        maxX = Math.ceil(rectWidth / 10) * 10 + 50; // 保留空间
+        maxY = Math.ceil(rectHeight / 10) * 10 + 50; // 保留空间
         canvas.requestPaint();
     }
 
@@ -83,7 +86,6 @@ Rectangle {
                 ctx.fillText(j.toFixed(0), padding - 20, y + 3); // 调整文字位置与轴线分离
             }
 
-            // 绘制矩形（如果有数据）
             if (rectWidth > 0 && rectHeight > 0) {
                 ctx.strokeStyle = cosFTextColor;
                 ctx.lineWidth = 2;
@@ -93,6 +95,43 @@ Rectangle {
                 const scaledHeight = (rectHeight / maxY) * axisHeight;
                 ctx.strokeRect(rectX, rectY, scaledWidth, scaledHeight);
             }
+
+            // 绘制光源矩形条
+            ctx.fillStyle = "#4285F4"; // 光源条颜色
+            ctx.strokeStyle = "#0057E7"; // 光源边框颜色
+            ctx.lineWidth = 2;
+
+            for (let k = 0; k < lightSources.count; k++) {
+                const source = lightSources.get(k);
+                if (source && source.positionX !== undefined && source.positionY !== undefined) {
+                    const rectXL = padding + (source.positionX / maxX) * axisWidth;
+                    const rectYL = height - padding - (source.positionY / maxY) * axisHeight;
+                    const rectWidthL = 50; // 固定宽度
+                    const rectHeightL = 10; // 固定高度
+
+                    // 绘制光源矩形条
+                    ctx.fillRect(rectXL, rectYL - rectHeightL, rectWidthL, rectHeightL);
+                    ctx.strokeRect(rectXL, rectYL - rectHeightL, rectWidthL, rectHeightL);
+
+                    // 绘制光源名称
+                    ctx.fillStyle = "#000000";
+                    ctx.font = "10px Arial";
+                    ctx.fillText(source.name, rectXL + 5, rectYL - rectHeightL - 5); // 名称显示在矩形上方
+                }
+            }
         }
     }
+    Connections {
+        target: lightSources
+        function onRowsInserted(parent, first, last) {
+            canvas.requestPaint()// 强制立即刷新画布
+        }
+        function onRowsRemoved(parent, first, last) {
+            canvas.requestPaint()
+        }
+        function onDataChanged(start, end, roles) {
+            canvas.requestPaint()
+        }
+    }
+
 }
