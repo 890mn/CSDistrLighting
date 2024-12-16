@@ -1,30 +1,33 @@
 import QtQuick 2.15
 import QtQuick.Controls 2.15
 import QtQuick.Layouts
+import FluentUI
 
 Rectangle {
     id: indoorEnvironment
     width: parent.width - 20
-    height: 200
+    height: 210
     radius: 10
     border.color: "#a0a0a0"
-    color: "#f9f9f9"
+    color: "white"
 
     Column {
         anchors.fill: parent
         spacing: 10
-        padding: 10
+        padding: 20
 
         Text {
             text: qsTr("室内环境")
             font.pixelSize: 25
+            font.family: smileFont.name
         }
 
         Text {
             id: simulationData
-            text: qsTr("     大小 [%1] x [%2]").arg(sliderWidth.value.toFixed(0)).arg(sliderHeight.value.toFixed(0))
-            font.pixelSize: 20
-            font.bold: true
+            text: qsTr("       平面宽/高 [%1] x [%2] ( Unit: cm )").arg(sliderWidth.value.toFixed(0)).arg(sliderHeight.value.toFixed(0))
+            font.pixelSize: 24
+            font.family: smileFont.name
+            height: 40
         }
 
         // 宽度滑块
@@ -33,30 +36,33 @@ Rectangle {
             width: parent.width
 
             Text {
-                text: qsTr("宽度")
+                text: qsTr("  宽度")
                 font.pixelSize: 20
-                width: 80
+                font.family: smileFont.name
+                width: 40
+                height: 40
             }
 
-            Slider {
+            FluSlider {
                 id: sliderWidth
-                width: parent.width - 200
+                width: parent.width - 180
                 height: 30 // 调整滑块高度
                 from: 0
                 to: 6400
                 value: 300
                 onValueChanged: {
-                    simulationData.text = qsTr("     大小 [%1] x [%2]").arg(value.toFixed(0)).arg(sliderHeight.value.toFixed(0));
+                    simulationData.text = qsTr("       平面宽/高 [%1] x [%2] ( Unit: cm )").arg(value.toFixed(0)).arg(sliderHeight.value.toFixed(0));
                     simulationCanvas.updateRectangle(value, sliderHeight.value);
                     textFieldWidth.text = value.toFixed(0);
                 }
             }
 
-            TextField {
+            FluTextBox {
                 id: textFieldWidth
                 text: sliderWidth.value.toFixed(0)
-                font.pixelSize: 20
-                width: 60
+                font.pixelSize: 16
+                font.family: smileFont.name
+                width: 80
                 height: 30
                 inputMethodHints: Qt.ImhDigitsOnly
                 onEditingFinished: {
@@ -76,30 +82,33 @@ Rectangle {
             width: parent.width
 
             Text {
-                text: qsTr("长度")
+                text: qsTr("  长度")
                 font.pixelSize: 20
-                width: 80
+                font.family: smileFont.name
+                width: 40
+                height: 40
             }
 
-            Slider {
+            FluSlider {
                 id: sliderHeight
-                width: parent.width - 200
+                width: parent.width - 180
                 height: 30 // 调整滑块高度
                 from: 0
                 to: 6400
                 value: 200
                 onValueChanged: {
-                    simulationData.text = qsTr("     大小 [%1] x [%2]").arg(sliderWidth.value.toFixed(0)).arg(value.toFixed(0));
+                    simulationData.text = qsTr("       平面宽/高 [%1] x [%2] ( Unit: cm )").arg(sliderWidth.value.toFixed(0)).arg(value.toFixed(0));
                     simulationCanvas.updateRectangle(sliderWidth.value, value);
                     textFieldHeight.text = value.toFixed(0);
                 }
             }
 
-            TextField {
+            FluTextBox {
                 id: textFieldHeight
                 text: sliderHeight.value.toFixed(0)
-                font.pixelSize: 20
-                width: 60
+                font.pixelSize: 16
+                font.family: smileFont.name
+                width: 80
                 height: 30
                 inputMethodHints: Qt.ImhDigitsOnly
                 onEditingFinished: {

@@ -35,25 +35,28 @@
 <context>
     <name>IndoorEnvironmentModule</name>
     <message>
-        <location filename="IndoorEnvironmentModule.qml" line="19"/>
+        <location filename="IndoorEnvironmentModule.qml" line="20"/>
         <source>室内环境</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="IndoorEnvironmentModule.qml" line="25"/>
-        <location filename="IndoorEnvironmentModule.qml" line="49"/>
-        <location filename="IndoorEnvironmentModule.qml" line="92"/>
-        <source>     大小 [%1] x [%2]</source>
+        <location filename="IndoorEnvironmentModule.qml" line="27"/>
+        <location filename="IndoorEnvironmentModule.qml" line="54"/>
+        <location filename="IndoorEnvironmentModule.qml" line="100"/>
+        <source>       平面宽/高 [%1] x [%2] ( Unit: cm )</source>
+        <oldsource>       平面 [%1] x [%2] ( Unit: cm )</oldsource>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="IndoorEnvironmentModule.qml" line="36"/>
-        <source>宽度</source>
+        <location filename="IndoorEnvironmentModule.qml" line="39"/>
+        <source>  宽度</source>
+        <oldsource>   宽度</oldsource>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="IndoorEnvironmentModule.qml" line="79"/>
-        <source>长度</source>
+        <location filename="IndoorEnvironmentModule.qml" line="85"/>
+        <source>  长度</source>
+        <oldsource>   长度</oldsource>
         <translation type="unfinished"></translation>
     </message>
 </context>
