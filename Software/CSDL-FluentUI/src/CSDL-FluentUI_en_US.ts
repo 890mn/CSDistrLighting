@@ -101,8 +101,28 @@
 <context>
     <name>LightSettingsModule</name>
     <message>
-        <location filename="LightSettingsModule.qml" line="20"/>
+        <location filename="LightSettingsModule.qml" line="26"/>
         <source>光源设置</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="LightSettingsModule.qml" line="32"/>
+        <source>添加光源</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="LightSettingsModule.qml" line="75"/>
+        <source>折叠</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="LightSettingsModule.qml" line="75"/>
+        <source>展开</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="LightSettingsModule.qml" line="91"/>
+        <source>删除</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
