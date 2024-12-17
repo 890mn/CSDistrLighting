@@ -130,8 +130,8 @@ Rectangle {
             canvas.requestPaint()
         }
         function onDataChanged(start, end, roles) {
-            console.log("Data changed: ", start, end, roles);
-            canvas.requestPaint();  // 请求画布重绘
+            console.log("Data changed: ", start, end, roles)
+            canvas.requestPaint() // 请求画布重绘
         }
 
     }

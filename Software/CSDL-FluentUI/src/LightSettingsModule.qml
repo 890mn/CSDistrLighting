@@ -91,7 +91,20 @@ Rectangle {
 
                         Button {
                             text: qsTr("删除")
-                            onClicked: lightSources.remove(index)
+                            onClicked: {
+                                // 删除光源前，重新调整光源的序号
+                                if (lightSources.get(index)) {
+                                    // 删除当前项
+                                    lightSources.remove(index);
+
+                                    // 调整序号
+                                    for (var i = 0; i < lightSources.count; i++) {
+                                        var lightData = lightSources.get(i);
+                                        lightData.name = "光源 " + (i + 1); // 重新设置序号
+                                        lightSources.set(i, lightData); // 更新模型数据
+                                    }
+                                }
+                            }
                         }
                     }
 

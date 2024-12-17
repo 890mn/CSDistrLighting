@@ -126,17 +126,17 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="LightSettingsModule.qml" line="110"/>
+        <location filename="LightSettingsModule.qml" line="123"/>
         <source>强度</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="LightSettingsModule.qml" line="161"/>
+        <location filename="LightSettingsModule.qml" line="174"/>
         <source>位置 X</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="LightSettingsModule.qml" line="212"/>
+        <location filename="LightSettingsModule.qml" line="225"/>
         <source>位置 Y</source>
         <translation type="unfinished"></translation>
     </message>
