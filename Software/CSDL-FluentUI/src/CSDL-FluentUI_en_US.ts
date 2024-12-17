@@ -101,28 +101,43 @@
 <context>
     <name>LightSettingsModule</name>
     <message>
-        <location filename="LightSettingsModule.qml" line="30"/>
+        <location filename="LightSettingsModule.qml" line="28"/>
         <source>光源设置</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="LightSettingsModule.qml" line="36"/>
+        <location filename="LightSettingsModule.qml" line="34"/>
         <source>添加光源</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="LightSettingsModule.qml" line="79"/>
+        <location filename="LightSettingsModule.qml" line="77"/>
         <source>折叠</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="LightSettingsModule.qml" line="79"/>
+        <location filename="LightSettingsModule.qml" line="77"/>
         <source>展开</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="LightSettingsModule.qml" line="95"/>
+        <location filename="LightSettingsModule.qml" line="93"/>
         <source>删除</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="LightSettingsModule.qml" line="110"/>
+        <source>强度</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="LightSettingsModule.qml" line="161"/>
+        <source>位置 X</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="LightSettingsModule.qml" line="212"/>
+        <source>位置 Y</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

@@ -124,14 +124,16 @@ Rectangle {
     Connections {
         target: lightSources
         function onRowsInserted(parent, first, last) {
-            canvas.requestPaint()// 强制立即刷新画布
+            canvas.requestPaint()
         }
         function onRowsRemoved(parent, first, last) {
             canvas.requestPaint()
         }
         function onDataChanged(start, end, roles) {
-            canvas.requestPaint()
+            console.log("Data changed: ", start, end, roles);
+            canvas.requestPaint();  // 请求画布重绘
         }
+
     }
 
 }

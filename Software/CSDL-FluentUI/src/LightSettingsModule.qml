@@ -1,6 +1,5 @@
 import QtQuick 2.15
 import QtQuick.Controls 2.15
-import QtQuick.Layouts
 import FluentUI
 
 Rectangle {
@@ -15,7 +14,6 @@ Rectangle {
     Component.onCompleted: {
         simulationCanvas.lightSources = lightSources; // 绑定外部模型
     }
-
 
     Column {
         anchors.fill: parent
@@ -97,62 +95,160 @@ Rectangle {
                         }
                     }
 
-                    // Expanded content
+                    // Expanded content: 使用 Column 来排列属性
                     Column {
                         visible: model.expanded
                         spacing: 10
                         width: parent.width
 
-                        Repeater {
-                            model: ListModel {
-                                ListElement { label: "强度"; min: 0; max: 100; property: "intensity" }
-                                ListElement { label: "位置 X"; min: 0; max: 600; property: "positionX" }
-                                ListElement { label: "位置 Y"; min: 0; max: 400; property: "positionY" }
+                        // 强度调整
+                        Row {
+                            spacing: 10
+                            width: parent.width
+
+                            Text {
+                                text: qsTr("强度")
+                                font.pixelSize: 18
+                                font.family: smileFont.name
                             }
 
-                            delegate: Row {
-                                spacing: 10
-                                width: parent.width
+                            FluSlider {
+                                id: intensitySlider
+                                width: parent.width - 180
+                                from: 0
+                                to: 100
+                                value: model.intensity
 
-                                Text {
-                                    text: model.label
-                                    font.pixelSize: 18
-                                    font.family: smileFont.name
-                                }
-
-                                FluSlider {
-                                    id: slider
-                                    width: parent.width - 180
-                                    from: model.min
-                                    to: model.max
-                                    value: lightSources.get(index) && lightSources.get(index)[model.property] !== undefined
-                                        ? lightSources.get(index)[model.property]
-                                        : 0 // 默认值
-
-                                    onValueChanged: {
-                                        // 检查是否能正确获取对象
-                                        let lightData = lightSources.get(index);
-                                        if (lightData) {
-                                            lightData[model.property] = value;
-                                            lightSources.set(index, lightData);
-                                        }
+                                onValueChanged: {
+                                    let lightData = lightSources.get(index);
+                                    if (lightData) {
+                                        lightData.intensity = value;
+                                        lightSources.set(index, {
+                                            name: lightData.name,
+                                            intensity: lightData.intensity,
+                                            positionX: lightData.positionX,
+                                            positionY: lightData.positionY,
+                                            expanded: lightData.expanded
+                                        });
                                     }
                                 }
+                            }
 
-                                FluTextBox {
-                                    text: slider.value.toFixed(0)
-                                    font.pixelSize: 16
-                                    font.family: smileFont.name
-                                    width: 80
-                                    height: 30
-                                    inputMethodHints: Qt.ImhDigitsOnly
-                                    onEditingFinished: {
-                                        let newValue = parseInt(text);
-                                        if (!isNaN(newValue) && newValue >= slider.from && newValue <= slider.to) {
-                                            slider.value = newValue;
-                                        } else {
-                                            text = slider.value.toFixed(0); // 恢复合法值
-                                        }
+                            FluTextBox {
+                                text: intensitySlider.value.toFixed(0)
+                                font.pixelSize: 16
+                                font.family: smileFont.name
+                                width: 80
+                                height: 30
+                                inputMethodHints: Qt.ImhDigitsOnly
+                                onEditingFinished: {
+                                    let newValue = parseInt(text);
+                                    if (!isNaN(newValue) && newValue >= intensitySlider.from && newValue <= intensitySlider.to) {
+                                        intensitySlider.value = newValue;
+                                    } else {
+                                        text = intensitySlider.value.toFixed(0); // 恢复合法值
+                                    }
+                                }
+                            }
+                        }
+
+                        // 位置 X 调整
+                        Row {
+                            spacing: 10
+                            width: parent.width
+
+                            Text {
+                                text: qsTr("位置 X")
+                                font.pixelSize: 18
+                                font.family: smileFont.name
+                            }
+
+                            FluSlider {
+                                id: positionXSlider
+                                width: parent.width - 180
+                                from: 0
+                                to: 600
+                                value: model.positionX
+
+                                onValueChanged: {
+                                    let lightData = lightSources.get(index);
+                                    if (lightData) {
+                                        lightData.positionX = value;
+                                        lightSources.set(index, {
+                                            name: lightData.name,
+                                            intensity: lightData.intensity,
+                                            positionX: lightData.positionX,
+                                            positionY: lightData.positionY,
+                                            expanded: lightData.expanded
+                                        });
+                                    }
+                                }
+                            }
+
+                            FluTextBox {
+                                text: positionXSlider.value.toFixed(0)
+                                font.pixelSize: 16
+                                font.family: smileFont.name
+                                width: 80
+                                height: 30
+                                inputMethodHints: Qt.ImhDigitsOnly
+                                onEditingFinished: {
+                                    let newValue = parseInt(text);
+                                    if (!isNaN(newValue) && newValue >= positionXSlider.from && newValue <= positionXSlider.to) {
+                                        positionXSlider.value = newValue;
+                                    } else {
+                                        text = positionXSlider.value.toFixed(0); // 恢复合法值
+                                    }
+                                }
+                            }
+                        }
+
+                        // 位置 Y 调整
+                        Row {
+                            spacing: 10
+                            width: parent.width
+
+                            Text {
+                                text: qsTr("位置 Y")
+                                font.pixelSize: 18
+                                font.family: smileFont.name
+                            }
+
+                            FluSlider {
+                                id: positionYSlider
+                                width: parent.width - 180
+                                from: 0
+                                to: 400
+                                value: model.positionY
+
+                                onValueChanged: {
+                                    let lightData = lightSources.get(index);
+                                    if (lightData) {
+                                        lightData.positionY = value;
+                                        lightSources.set(index, {
+                                            name: lightData.name,
+                                            intensity: lightData.intensity,
+                                            positionX: lightData.positionX,
+                                            positionY: lightData.positionY,
+                                            expanded: lightData.expanded
+                                        });
+                                    }
+                                }
+                            }
+
+                            FluTextBox {
+                                text: positionYSlider.value.toFixed(0)
+                                font.pixelSize: 16
+                                font.family: smileFont.name
+                                width: 80
+                                height: 30
+                                inputMethodHints: Qt.ImhDigitsOnly
+                                onEditingFinished: {
+                                    let newValue = parseInt(text);
+                                    if (!isNaN(newValue) && newValue >= positionYSlider.from && newValue <= positionYSlider.to) {
+                                        positionYSlider.value = newValue;
+                                    } else {
+                                        text = positionYSlider.value.toFixed(0); // 恢复合法值
                                     }
                                 }
                             }
