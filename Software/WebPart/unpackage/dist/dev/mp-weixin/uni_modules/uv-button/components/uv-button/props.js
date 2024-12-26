@@ -41,7 +41,7 @@ const props = {
     // 加载中提示文字
     loadingText: {
       type: [String, Number],
-      default: ""
+      default:"加载中······"
     },
     // 加载状态图标类型
     loadingMode: {
@@ -144,7 +144,7 @@ const props = {
     // 按钮图标大小
     iconSize: {
       type: [String, Number],
-      default: ""
+      default: 20
     },
     // 按钮图标颜色
     iconColor: {
