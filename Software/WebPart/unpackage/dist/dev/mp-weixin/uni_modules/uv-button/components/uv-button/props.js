@@ -16,7 +16,7 @@ const props = {
     // 按钮尺寸，large，normal，small，mini
     size: {
       type: String,
-      default: "normal"
+      default: "large"
     },
     // 按钮形状，circle（两边为半圆），square（带圆角）
     shape: {
