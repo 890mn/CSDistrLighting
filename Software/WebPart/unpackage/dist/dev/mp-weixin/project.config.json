@@ -18,12 +18,20 @@
     }
   },
   "compileType": "miniprogram",
-
-  "libVersion": "3.6.3",
-  "appid": "wx84747484ac545f5a",
-
+  "libVersion": "3.6.2",
+  "appid": "wxce1b5e763588420b",
   "projectname": "ligth-ble",
-  "condition": {},
+  "condition": {
+    "miniprogram": {
+      "list": [
+        {
+          "name": "pages/device/device",
+          "pathName": "pages/device/device",
+          "query": ""
+        }
+      ]
+    }
+  },
   "editorSetting": {
     "tabIndent": "insertSpaces",
     "tabSize": 2

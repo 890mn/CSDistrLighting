@@ -33,7 +33,7 @@ const _sfc_main = {
   __name: "device",
   setup(__props) {
     const operatingSystem = uni_modules_uvUiTools_libs_function_index.os();
-    const deviceId = operatingSystem === "ios" ? "4338C594-C742-429C-06A5-72A76E43374F" : "30:C6:F7:43:ED:CA";
+    const deviceId = operatingSystem === "ios" ? "4338C594-C742-429C-06A5-72A76E43374F" : "88:13:BF:00:8D:BE";
     const toast = common_vendor.ref(null);
     const modal = common_vendor.ref(null);
     const loading = common_vendor.ref(false);
@@ -219,7 +219,7 @@ const _sfc_main = {
           leftIconColor: "white",
           ["left-text"]: "断开连接"
         }),
-        c: common_vendor.sr(modal, "ffd3eb70-1", {
+        c: common_vendor.sr(modal, "28963238-1", {
           "k": "modal"
         }),
         d: common_vendor.o(disconnect),
@@ -228,7 +228,7 @@ const _sfc_main = {
           content: "是否断开连接此设备",
           showCancelButton: true
         }),
-        f: common_vendor.sr(toast, "ffd3eb70-2", {
+        f: common_vendor.sr(toast, "28963238-2", {
           "k": "toast"
         }),
         g: common_vendor.p({

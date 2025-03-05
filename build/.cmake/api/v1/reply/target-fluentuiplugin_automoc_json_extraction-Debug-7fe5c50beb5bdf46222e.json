@@ -1,0 +1,114 @@
+{
+	"backtrace" : 5,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"qt6_extract_metatypes",
+			"_qt_internal_qml_type_registration",
+			"qt6_add_qml_module",
+			"qt_add_qml_module",
+			"add_dependencies"
+		],
+		"files" : 
+		[
+			"D:/normal_program/QT/6.7.3/msvc2019_64/lib/cmake/Qt6Core/Qt6CoreMacros.cmake",
+			"D:/normal_program/QT/6.7.3/msvc2019_64/lib/cmake/Qt6Qml/Qt6QmlMacros.cmake",
+			"FluentUI/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 151,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 780,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 541,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 2924,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1295,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 1310,
+				"parent" : 4
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 6,
+			"id" : "fluentuiplugin_autogen::@7366c80dbef1255836ce"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "QtInternalTargets"
+	},
+	"id" : "fluentuiplugin_automoc_json_extraction::@7366c80dbef1255836ce",
+	"name" : "fluentuiplugin_automoc_json_extraction",
+	"paths" : 
+	{
+		"build" : "FluentUI",
+		"source" : "FluentUI"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI/CMakeFiles/fluentuiplugin_automoc_json_extraction",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI/CMakeFiles/fluentuiplugin_automoc_json_extraction.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

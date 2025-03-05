@@ -1,0 +1,824 @@
+[
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\fluentuiplugin_autogen\\mocs_compilation.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\build\\FluentUI\\fluentuiplugin_autogen\\mocs_compilation.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI/fluentuiplugin_autogen/mocs_compilation.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/fluentuiplugin_autogen/mocs_compilation.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\fluentuiplugin_qmltyperegistrations.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\build\\FluentUI\\fluentuiplugin_qmltyperegistrations.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI/fluentuiplugin_qmltyperegistrations.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/fluentuiplugin_qmltyperegistrations.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\.qt\\rcc\\qrc_qmake_FluentUI.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\build\\FluentUI\\.qt\\rcc\\qrc_qmake_FluentUI.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI/.qt/rcc/qrc_qmake_FluentUI.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/.qt/rcc/qrc_qmake_FluentUI.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\fluentuiplugin_FluentUIPlugin.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\build\\FluentUI\\fluentuiplugin_FluentUIPlugin.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI/fluentuiplugin_FluentUIPlugin.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/fluentuiplugin_FluentUIPlugin.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\FluAccentColor.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\Software\\CSDL-FluentUI\\FluentUI\\FluAccentColor.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/Software/CSDL-FluentUI/FluentUI/FluAccentColor.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/FluAccentColor.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\FluApp.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\Software\\CSDL-FluentUI\\FluentUI\\FluApp.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/Software/CSDL-FluentUI/FluentUI/FluApp.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/FluApp.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\FluCaptcha.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\Software\\CSDL-FluentUI\\FluentUI\\FluCaptcha.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/Software/CSDL-FluentUI/FluentUI/FluCaptcha.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/FluCaptcha.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\FluColors.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\Software\\CSDL-FluentUI\\FluentUI\\FluColors.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/Software/CSDL-FluentUI/FluentUI/FluColors.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/FluColors.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\FluFrameless.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\Software\\CSDL-FluentUI\\FluentUI\\FluFrameless.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/Software/CSDL-FluentUI/FluentUI/FluFrameless.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/FluFrameless.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\FluHotkey.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\Software\\CSDL-FluentUI\\FluentUI\\FluHotkey.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/Software/CSDL-FluentUI/FluentUI/FluHotkey.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/FluHotkey.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\FluQrCodeItem.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\Software\\CSDL-FluentUI\\FluentUI\\FluQrCodeItem.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/Software/CSDL-FluentUI/FluentUI/FluQrCodeItem.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/FluQrCodeItem.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\FluRectangle.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\Software\\CSDL-FluentUI\\FluentUI\\FluRectangle.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/Software/CSDL-FluentUI/FluentUI/FluRectangle.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/FluRectangle.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\FluTableModel.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\Software\\CSDL-FluentUI\\FluentUI\\FluTableModel.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/Software/CSDL-FluentUI/FluentUI/FluTableModel.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/FluTableModel.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\FluTableSortProxyModel.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\Software\\CSDL-FluentUI\\FluentUI\\FluTableSortProxyModel.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/Software/CSDL-FluentUI/FluentUI/FluTableSortProxyModel.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/FluTableSortProxyModel.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\FluTextStyle.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\Software\\CSDL-FluentUI\\FluentUI\\FluTextStyle.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/Software/CSDL-FluentUI/FluentUI/FluTextStyle.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/FluTextStyle.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\FluTheme.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\Software\\CSDL-FluentUI\\FluentUI\\FluTheme.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/Software/CSDL-FluentUI/FluentUI/FluTheme.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/FluTheme.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\FluTools.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\Software\\CSDL-FluentUI\\FluentUI\\FluTools.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/Software/CSDL-FluentUI/FluentUI/FluTools.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/FluTools.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\FluTreeModel.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\Software\\CSDL-FluentUI\\FluentUI\\FluTreeModel.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/Software/CSDL-FluentUI/FluentUI/FluTreeModel.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/FluTreeModel.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\FluWatermark.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\Software\\CSDL-FluentUI\\FluentUI\\FluWatermark.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/Software/CSDL-FluentUI/FluentUI/FluWatermark.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/FluWatermark.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\qhotkey\\qhotkey.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\Software\\CSDL-FluentUI\\FluentUI\\qhotkey\\qhotkey.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/Software/CSDL-FluentUI/FluentUI/qhotkey/qhotkey.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/qhotkey/qhotkey.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\qmlcustomplot\\TimePlot.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\Software\\CSDL-FluentUI\\FluentUI\\qmlcustomplot\\TimePlot.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/Software/CSDL-FluentUI/FluentUI/qmlcustomplot/TimePlot.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/qmlcustomplot/TimePlot.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\qmlcustomplot\\axis.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\Software\\CSDL-FluentUI\\FluentUI\\qmlcustomplot\\axis.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/Software/CSDL-FluentUI/FluentUI/qmlcustomplot/axis.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/qmlcustomplot/axis.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\qmlcustomplot\\baseplot.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\Software\\CSDL-FluentUI\\FluentUI\\qmlcustomplot\\baseplot.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/Software/CSDL-FluentUI/FluentUI/qmlcustomplot/baseplot.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/qmlcustomplot/baseplot.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\qmlcustomplot\\graph.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\Software\\CSDL-FluentUI\\FluentUI\\qmlcustomplot\\graph.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/Software/CSDL-FluentUI/FluentUI/qmlcustomplot/graph.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/qmlcustomplot/graph.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\qmlcustomplot\\grid.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\Software\\CSDL-FluentUI\\FluentUI\\qmlcustomplot\\grid.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/Software/CSDL-FluentUI/FluentUI/qmlcustomplot/grid.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/qmlcustomplot/grid.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\qmlcustomplot\\qcustomplot.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\Software\\CSDL-FluentUI\\FluentUI\\qmlcustomplot\\qcustomplot.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/Software/CSDL-FluentUI/FluentUI/qmlcustomplot/qcustomplot.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/qmlcustomplot/qcustomplot.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\qmlcustomplot\\ticker.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\Software\\CSDL-FluentUI\\FluentUI\\qmlcustomplot\\ticker.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/Software/CSDL-FluentUI/FluentUI/qmlcustomplot/ticker.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/qmlcustomplot/ticker.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\qrcode\\bitstream.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\Software\\CSDL-FluentUI\\FluentUI\\qrcode\\bitstream.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/Software/CSDL-FluentUI/FluentUI/qrcode/bitstream.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/qrcode/bitstream.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\qrcode\\mask.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\Software\\CSDL-FluentUI\\FluentUI\\qrcode\\mask.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/Software/CSDL-FluentUI/FluentUI/qrcode/mask.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/qrcode/mask.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\qrcode\\mmask.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\Software\\CSDL-FluentUI\\FluentUI\\qrcode\\mmask.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/Software/CSDL-FluentUI/FluentUI/qrcode/mmask.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/qrcode/mmask.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\qrcode\\mqrspec.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\Software\\CSDL-FluentUI\\FluentUI\\qrcode\\mqrspec.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/Software/CSDL-FluentUI/FluentUI/qrcode/mqrspec.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/qrcode/mqrspec.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\qrcode\\qrencode.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\Software\\CSDL-FluentUI\\FluentUI\\qrcode\\qrencode.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/Software/CSDL-FluentUI/FluentUI/qrcode/qrencode.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/qrcode/qrencode.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\qrcode\\qrinput.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\Software\\CSDL-FluentUI\\FluentUI\\qrcode\\qrinput.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/Software/CSDL-FluentUI/FluentUI/qrcode/qrinput.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/qrcode/qrinput.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\qrcode\\qrspec.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\Software\\CSDL-FluentUI\\FluentUI\\qrcode\\qrspec.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/Software/CSDL-FluentUI/FluentUI/qrcode/qrspec.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/qrcode/qrspec.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\qrcode\\rsecc.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\Software\\CSDL-FluentUI\\FluentUI\\qrcode\\rsecc.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/Software/CSDL-FluentUI/FluentUI/qrcode/rsecc.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/qrcode/rsecc.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\qrcode\\split.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\Software\\CSDL-FluentUI\\FluentUI\\qrcode\\split.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/Software/CSDL-FluentUI/FluentUI/qrcode/split.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/qrcode/split.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\qhotkey\\qhotkey_win.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\Software\\CSDL-FluentUI\\FluentUI\\qhotkey\\qhotkey_win.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/Software/CSDL-FluentUI/FluentUI/qhotkey/qhotkey_win.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/qhotkey/qhotkey_win.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\.rcc\\qmlcache\\fluentuiplugin_qmlcache_loader.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\build\\FluentUI\\.rcc\\qmlcache\\fluentuiplugin_qmlcache_loader.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI/.rcc/qmlcache/fluentuiplugin_qmlcache_loader.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/.rcc/qmlcache/fluentuiplugin_qmlcache_loader.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluAcrylic_qml.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\build\\FluentUI\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluAcrylic_qml.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluAcrylic_qml.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluAcrylic_qml.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluAppBar_qml.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\build\\FluentUI\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluAppBar_qml.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluAppBar_qml.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluAppBar_qml.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluAutoSuggestBox_qml.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\build\\FluentUI\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluAutoSuggestBox_qml.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluAutoSuggestBox_qml.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluAutoSuggestBox_qml.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluBadge_qml.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\build\\FluentUI\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluBadge_qml.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluBadge_qml.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluBadge_qml.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluBreadcrumbBar_qml.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\build\\FluentUI\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluBreadcrumbBar_qml.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluBreadcrumbBar_qml.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluBreadcrumbBar_qml.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluButton_qml.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\build\\FluentUI\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluButton_qml.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluButton_qml.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluButton_qml.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluCalendarPicker_qml.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\build\\FluentUI\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluCalendarPicker_qml.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluCalendarPicker_qml.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluCalendarPicker_qml.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluCarousel_qml.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\build\\FluentUI\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluCarousel_qml.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluCarousel_qml.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluCarousel_qml.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluChart_qml.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\build\\FluentUI\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluChart_qml.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluChart_qml.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluChart_qml.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluCheckBox_qml.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\build\\FluentUI\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluCheckBox_qml.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluCheckBox_qml.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluCheckBox_qml.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluClip_qml.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\build\\FluentUI\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluClip_qml.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluClip_qml.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluClip_qml.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluColorPicker_qml.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\build\\FluentUI\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluColorPicker_qml.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluColorPicker_qml.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluColorPicker_qml.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluComboBox_qml.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\build\\FluentUI\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluComboBox_qml.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluComboBox_qml.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluComboBox_qml.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluContentDialog_qml.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\build\\FluentUI\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluContentDialog_qml.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluContentDialog_qml.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluContentDialog_qml.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluContentPage_qml.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\build\\FluentUI\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluContentPage_qml.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluContentPage_qml.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluContentPage_qml.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluControl_qml.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\build\\FluentUI\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluControl_qml.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluControl_qml.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluControl_qml.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluControlBackground_qml.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\build\\FluentUI\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluControlBackground_qml.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluControlBackground_qml.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluControlBackground_qml.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluCopyableText_qml.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\build\\FluentUI\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluCopyableText_qml.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluCopyableText_qml.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluCopyableText_qml.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluDatePicker_qml.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\build\\FluentUI\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluDatePicker_qml.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluDatePicker_qml.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluDatePicker_qml.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluDivider_qml.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\build\\FluentUI\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluDivider_qml.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluDivider_qml.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluDivider_qml.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluDropDownButton_qml.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\build\\FluentUI\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluDropDownButton_qml.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluDropDownButton_qml.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluDropDownButton_qml.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluEvent_qml.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\build\\FluentUI\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluEvent_qml.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluEvent_qml.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluEvent_qml.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluEventBus_qml.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\build\\FluentUI\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluEventBus_qml.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluEventBus_qml.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluEventBus_qml.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluExpander_qml.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\build\\FluentUI\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluExpander_qml.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluExpander_qml.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluExpander_qml.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluFilledButton_qml.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\build\\FluentUI\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluFilledButton_qml.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluFilledButton_qml.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluFilledButton_qml.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluFlipView_qml.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\build\\FluentUI\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluFlipView_qml.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluFlipView_qml.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluFlipView_qml.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluFocusRectangle_qml.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\build\\FluentUI\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluFocusRectangle_qml.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluFocusRectangle_qml.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluFocusRectangle_qml.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluFrame_qml.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\build\\FluentUI\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluFrame_qml.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluFrame_qml.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluFrame_qml.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluGroupBox_qml.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\build\\FluentUI\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluGroupBox_qml.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluGroupBox_qml.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluGroupBox_qml.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluIcon_qml.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\build\\FluentUI\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluIcon_qml.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluIcon_qml.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluIcon_qml.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluIconButton_qml.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\build\\FluentUI\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluIconButton_qml.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluIconButton_qml.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluIconButton_qml.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluImage_qml.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\build\\FluentUI\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluImage_qml.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluImage_qml.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluImage_qml.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluImageButton_qml.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\build\\FluentUI\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluImageButton_qml.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluImageButton_qml.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluImageButton_qml.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluInfoBar_qml.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\build\\FluentUI\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluInfoBar_qml.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluInfoBar_qml.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluInfoBar_qml.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluItemDelegate_qml.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\build\\FluentUI\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluItemDelegate_qml.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluItemDelegate_qml.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluItemDelegate_qml.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluLauncher_qml.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\build\\FluentUI\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluLauncher_qml.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluLauncher_qml.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluLauncher_qml.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluLoader_qml.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\build\\FluentUI\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluLoader_qml.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluLoader_qml.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluLoader_qml.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluLoadingButton_qml.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\build\\FluentUI\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluLoadingButton_qml.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluLoadingButton_qml.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluLoadingButton_qml.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluMenu_qml.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\build\\FluentUI\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluMenu_qml.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluMenu_qml.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluMenu_qml.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluMenuBar_qml.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\build\\FluentUI\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluMenuBar_qml.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluMenuBar_qml.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluMenuBar_qml.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluMenuBarItem_qml.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\build\\FluentUI\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluMenuBarItem_qml.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluMenuBarItem_qml.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluMenuBarItem_qml.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluMenuItem_qml.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\build\\FluentUI\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluMenuItem_qml.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluMenuItem_qml.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluMenuItem_qml.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluMenuSeparator_qml.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\build\\FluentUI\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluMenuSeparator_qml.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluMenuSeparator_qml.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluMenuSeparator_qml.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluMultilineTextBox_qml.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\build\\FluentUI\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluMultilineTextBox_qml.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluMultilineTextBox_qml.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluMultilineTextBox_qml.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluNavigationView_qml.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\build\\FluentUI\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluNavigationView_qml.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluNavigationView_qml.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluNavigationView_qml.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluObject_qml.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\build\\FluentUI\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluObject_qml.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluObject_qml.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluObject_qml.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluPage_qml.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\build\\FluentUI\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluPage_qml.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluPage_qml.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluPage_qml.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluPagination_qml.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\build\\FluentUI\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluPagination_qml.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluPagination_qml.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluPagination_qml.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluPaneItem_qml.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\build\\FluentUI\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluPaneItem_qml.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluPaneItem_qml.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluPaneItem_qml.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluPaneItemEmpty_qml.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\build\\FluentUI\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluPaneItemEmpty_qml.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluPaneItemEmpty_qml.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluPaneItemEmpty_qml.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluPaneItemExpander_qml.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\build\\FluentUI\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluPaneItemExpander_qml.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluPaneItemExpander_qml.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluPaneItemExpander_qml.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluPaneItemHeader_qml.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\build\\FluentUI\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluPaneItemHeader_qml.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluPaneItemHeader_qml.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluPaneItemHeader_qml.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluPaneItemSeparator_qml.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\build\\FluentUI\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluPaneItemSeparator_qml.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluPaneItemSeparator_qml.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluPaneItemSeparator_qml.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluPasswordBox_qml.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\build\\FluentUI\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluPasswordBox_qml.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluPasswordBox_qml.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluPasswordBox_qml.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluPivot_qml.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\build\\FluentUI\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluPivot_qml.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluPivot_qml.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluPivot_qml.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluPivotItem_qml.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\build\\FluentUI\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluPivotItem_qml.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluPivotItem_qml.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluPivotItem_qml.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluPopup_qml.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\build\\FluentUI\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluPopup_qml.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluPopup_qml.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluPopup_qml.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluProgressBar_qml.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\build\\FluentUI\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluProgressBar_qml.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluProgressBar_qml.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluProgressBar_qml.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluProgressButton_qml.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\build\\FluentUI\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluProgressButton_qml.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluProgressButton_qml.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluProgressButton_qml.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluProgressRing_qml.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\build\\FluentUI\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluProgressRing_qml.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluProgressRing_qml.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluProgressRing_qml.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluQRCode_qml.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\build\\FluentUI\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluQRCode_qml.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluQRCode_qml.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluQRCode_qml.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluRadioButton_qml.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\build\\FluentUI\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluRadioButton_qml.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluRadioButton_qml.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluRadioButton_qml.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluRadioButtons_qml.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\build\\FluentUI\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluRadioButtons_qml.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluRadioButtons_qml.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluRadioButtons_qml.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluRangeSlider_qml.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\build\\FluentUI\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluRangeSlider_qml.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluRangeSlider_qml.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluRangeSlider_qml.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluRatingControl_qml.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\build\\FluentUI\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluRatingControl_qml.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluRatingControl_qml.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluRatingControl_qml.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluRemoteLoader_qml.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\build\\FluentUI\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluRemoteLoader_qml.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluRemoteLoader_qml.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluRemoteLoader_qml.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluRouter_qml.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\build\\FluentUI\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluRouter_qml.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluRouter_qml.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluRouter_qml.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluScrollBar_qml.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\build\\FluentUI\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluScrollBar_qml.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluScrollBar_qml.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluScrollBar_qml.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluScrollIndicator_qml.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\build\\FluentUI\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluScrollIndicator_qml.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluScrollIndicator_qml.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluScrollIndicator_qml.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluScrollablePage_qml.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\build\\FluentUI\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluScrollablePage_qml.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluScrollablePage_qml.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluScrollablePage_qml.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluShadow_qml.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\build\\FluentUI\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluShadow_qml.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluShadow_qml.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluShadow_qml.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluSheet_qml.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\build\\FluentUI\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluSheet_qml.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluSheet_qml.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluSheet_qml.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluShortcutPicker_qml.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\build\\FluentUI\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluShortcutPicker_qml.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluShortcutPicker_qml.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluShortcutPicker_qml.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluSlider_qml.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\build\\FluentUI\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluSlider_qml.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluSlider_qml.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluSlider_qml.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluSpinBox_qml.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\build\\FluentUI\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluSpinBox_qml.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluSpinBox_qml.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluSpinBox_qml.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluSplitLayout_qml.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\build\\FluentUI\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluSplitLayout_qml.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluSplitLayout_qml.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluSplitLayout_qml.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluStaggeredLayout_qml.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\build\\FluentUI\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluStaggeredLayout_qml.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluStaggeredLayout_qml.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluStaggeredLayout_qml.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluStatusLayout_qml.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\build\\FluentUI\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluStatusLayout_qml.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluStatusLayout_qml.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluStatusLayout_qml.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluTabView_qml.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\build\\FluentUI\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluTabView_qml.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluTabView_qml.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluTabView_qml.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluTableView_qml.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\build\\FluentUI\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluTableView_qml.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluTableView_qml.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluTableView_qml.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluText_qml.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\build\\FluentUI\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluText_qml.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluText_qml.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluText_qml.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluTextBox_qml.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\build\\FluentUI\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluTextBox_qml.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluTextBox_qml.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluTextBox_qml.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluTextBoxBackground_qml.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\build\\FluentUI\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluTextBoxBackground_qml.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluTextBoxBackground_qml.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluTextBoxBackground_qml.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluTextBoxMenu_qml.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\build\\FluentUI\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluTextBoxMenu_qml.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluTextBoxMenu_qml.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluTextBoxMenu_qml.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluTextButton_qml.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\build\\FluentUI\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluTextButton_qml.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluTextButton_qml.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluTextButton_qml.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluTimePicker_qml.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\build\\FluentUI\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluTimePicker_qml.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluTimePicker_qml.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluTimePicker_qml.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluTimeline_qml.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\build\\FluentUI\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluTimeline_qml.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluTimeline_qml.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluTimeline_qml.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluToggleButton_qml.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\build\\FluentUI\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluToggleButton_qml.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluToggleButton_qml.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluToggleButton_qml.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluToggleSwitch_qml.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\build\\FluentUI\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluToggleSwitch_qml.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluToggleSwitch_qml.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluToggleSwitch_qml.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluTooltip_qml.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\build\\FluentUI\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluTooltip_qml.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluTooltip_qml.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluTooltip_qml.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluTour_qml.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\build\\FluentUI\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluTour_qml.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluTour_qml.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluTour_qml.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluTreeView_qml.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\build\\FluentUI\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluTreeView_qml.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluTreeView_qml.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluTreeView_qml.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluWindow_qml.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\build\\FluentUI\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluWindow_qml.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluWindow_qml.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluWindow_qml.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluWindowDialog_qml.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\build\\FluentUI\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluWindowDialog_qml.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluWindowDialog_qml.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluWindowDialog_qml.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluWindowResultLauncher_qml.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\build\\FluentUI\\.rcc\\qmlcache\\fluentuiplugin_Qt6\\imports\\FluentUI\\Controls\\FluWindowResultLauncher_qml.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluWindowResultLauncher_qml.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/.rcc/qmlcache/fluentuiplugin_Qt6/imports/FluentUI/Controls/FluWindowResultLauncher_qml.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI",
+  "command": "C:\\MinGW\\bin\\g++.exe -DFLUENTUI_VERSION=1,7,7,0 -DHAVE_CONFIG_H -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -Dfluentuiplugin_EXPORTS @CMakeFiles/fluentuiplugin.dir/includes_CXX.rsp -g -std=gnu++17 -Wa,-mbig-obj -o CMakeFiles\\fluentuiplugin.dir\\.qt\\rcc\\qrc_fluentuiplugin_raw_qml_0.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\build\\FluentUI\\.qt\\rcc\\qrc_fluentuiplugin_raw_qml_0.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/FluentUI/.qt/rcc/qrc_fluentuiplugin_raw_qml_0.cpp",
+  "output": "FluentUI/CMakeFiles/fluentuiplugin.dir/.qt/rcc/qrc_fluentuiplugin_raw_qml_0.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/src",
+  "command": "C:\\MinGW\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/CSDL-FluentUI.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\CSDL-FluentUI.dir\\CSDL-FluentUI_autogen\\mocs_compilation.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\build\\src\\CSDL-FluentUI_autogen\\mocs_compilation.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/src/CSDL-FluentUI_autogen/mocs_compilation.cpp",
+  "output": "src/CMakeFiles/CSDL-FluentUI.dir/CSDL-FluentUI_autogen/mocs_compilation.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/src",
+  "command": "C:\\MinGW\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/CSDL-FluentUI.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\CSDL-FluentUI.dir\\main.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\Software\\CSDL-FluentUI\\src\\main.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/Software/CSDL-FluentUI/src/main.cpp",
+  "output": "src/CMakeFiles/CSDL-FluentUI.dir/main.cpp.obj"
+},
+{
+  "directory": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/src",
+  "command": "C:\\MinGW\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_PRINTSUPPORT_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/CSDL-FluentUI.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\CSDL-FluentUI.dir\\CSDL-FluentUI_autogen\\EWIEGA46WW\\qrc_qml.cpp.obj -c D:\\study_data\\CS_Major\\Hardware\\ESP32\\CSDistrLighting\\build\\src\\CSDL-FluentUI_autogen\\EWIEGA46WW\\qrc_qml.cpp",
+  "file": "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/src/CSDL-FluentUI_autogen/EWIEGA46WW/qrc_qml.cpp",
+  "output": "src/CMakeFiles/CSDL-FluentUI.dir/CSDL-FluentUI_autogen/EWIEGA46WW/qrc_qml.cpp.obj"
+}
+]

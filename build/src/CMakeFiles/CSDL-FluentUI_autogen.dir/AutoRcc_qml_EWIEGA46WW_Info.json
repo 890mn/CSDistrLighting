@@ -1,0 +1,36 @@
+{
+	"BUILD_DIR" : "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/src/CSDL-FluentUI_autogen",
+	"CMAKE_BINARY_DIR" : "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/src",
+	"CMAKE_CURRENT_SOURCE_DIR" : "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/Software/CSDL-FluentUI/src",
+	"CMAKE_SOURCE_DIR" : "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/Software/CSDL-FluentUI",
+	"INCLUDE_DIR" : "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/src/CSDL-FluentUI_autogen/include",
+	"INPUTS" : 
+	[
+		"D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/Software/CSDL-FluentUI/src/BottomSection.qml",
+		"D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/Software/CSDL-FluentUI/src/App.qml",
+		"D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/Software/CSDL-FluentUI/src/back.png",
+		"D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/Software/CSDL-FluentUI/src/InitialLayout.qml",
+		"D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/Software/CSDL-FluentUI/src/BrushGrunge.ttf",
+		"D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/Software/CSDL-FluentUI/src/TopSection.qml",
+		"D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/Software/CSDL-FluentUI/src/SimulationCanvas.qml",
+		"D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/Software/CSDL-FluentUI/src/SmileySans-Oblique.ttf",
+		"D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/Software/CSDL-FluentUI/src/SimulationLayout.qml",
+		"D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/Software/CSDL-FluentUI/src/RightSection.qml",
+		"D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/Software/CSDL-FluentUI/src/AdditionalModule.qml",
+		"D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/Software/CSDL-FluentUI/src/logo.ico",
+		"D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/Software/CSDL-FluentUI/src/IndoorEnvironmentModule.qml",
+		"D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/Software/CSDL-FluentUI/src/LightSettingsModule.qml",
+		"D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/Software/CSDL-FluentUI/src/main.qml"
+	],
+	"LOCK_FILE" : "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/src/CMakeFiles/CSDL-FluentUI_autogen.dir/AutoRcc_qml_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "--no-zstd", "-name", "qml" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_qml.cpp",
+	"RCC_EXECUTABLE" : "D:/normal_program/QT/6.7.3/msvc2019_64/bin/rcc.exe",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/src/CMakeFiles/CSDL-FluentUI_autogen.dir/AutoRcc_qml_EWIEGA46WW_Used.txt",
+	"SOURCE" : "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/Software/CSDL-FluentUI/src/qml.qrc",
+	"VERBOSITY" : 0
+}

@@ -1,0 +1,167 @@
+{
+	"BUILD_DIR" : "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/src/CSDL-FluentUI_autogen",
+	"CMAKE_BINARY_DIR" : "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/src",
+	"CMAKE_CURRENT_SOURCE_DIR" : "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/Software/CSDL-FluentUI/src",
+	"CMAKE_EXECUTABLE" : "C:/Program Files (x86)/CMake/bin/cmake.exe",
+	"CMAKE_LIST_FILES" : 
+	[
+		"D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/Software/CSDL-FluentUI/src/CMakeLists.txt",
+		"D:/normal_program/QT/6.7.3/msvc2019_64/lib/cmake/Qt6/Qt6ConfigVersion.cmake",
+		"D:/normal_program/QT/6.7.3/msvc2019_64/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake",
+		"D:/normal_program/QT/6.7.3/msvc2019_64/lib/cmake/Qt6/Qt6Config.cmake",
+		"D:/normal_program/QT/6.7.3/msvc2019_64/lib/cmake/Qt6/Qt6ConfigExtras.cmake",
+		"D:/normal_program/QT/6.7.3/msvc2019_64/lib/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake",
+		"D:/normal_program/QT/6.7.3/msvc2019_64/lib/cmake/Qt6/Qt6Targets.cmake",
+		"D:/normal_program/QT/6.7.3/msvc2019_64/lib/cmake/Qt6/Qt6VersionlessTargets.cmake",
+		"D:/normal_program/QT/6.7.3/msvc2019_64/lib/cmake/Qt6/QtFeature.cmake",
+		"C:/Program Files (x86)/CMake/share/cmake-3.27/Modules/CheckCXXCompilerFlag.cmake",
+		"D:/normal_program/QT/6.7.3/msvc2019_64/lib/cmake/Qt6/QtFeatureCommon.cmake",
+		"D:/normal_program/QT/6.7.3/msvc2019_64/lib/cmake/Qt6/QtPublicAppleHelpers.cmake",
+		"D:/normal_program/QT/6.7.3/msvc2019_64/lib/cmake/Qt6/QtPublicCMakeHelpers.cmake",
+		"D:/normal_program/QT/6.7.3/msvc2019_64/lib/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake",
+		"D:/normal_program/QT/6.7.3/msvc2019_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake",
+		"D:/normal_program/QT/6.7.3/msvc2019_64/lib/cmake/Qt6/QtPublicExternalProjectHelpers.cmake",
+		"D:/normal_program/QT/6.7.3/msvc2019_64/lib/cmake/Qt6/QtPublicFinalizerHelpers.cmake",
+		"D:/normal_program/QT/6.7.3/msvc2019_64/lib/cmake/Qt6/QtPublicFindPackageHelpers.cmake",
+		"D:/normal_program/QT/6.7.3/msvc2019_64/lib/cmake/Qt6/QtPublicPluginHelpers.cmake",
+		"D:/normal_program/QT/6.7.3/msvc2019_64/lib/cmake/Qt6/QtPublicTargetHelpers.cmake",
+		"D:/normal_program/QT/6.7.3/msvc2019_64/lib/cmake/Qt6/QtPublicTestHelpers.cmake",
+		"D:/normal_program/QT/6.7.3/msvc2019_64/lib/cmake/Qt6/QtPublicToolHelpers.cmake",
+		"D:/normal_program/QT/6.7.3/msvc2019_64/lib/cmake/Qt6/QtPublicWalkLibsHelpers.cmake",
+		"C:/Program Files (x86)/CMake/share/cmake-3.27/Modules/CMakeFindDependencyMacro.cmake",
+		"D:/normal_program/QT/6.7.3/msvc2019_64/lib/cmake/Qt6/Qt6Dependencies.cmake",
+		"D:/normal_program/QT/6.7.3/msvc2019_64/lib/cmake/Qt6/Qt6ConfigVersion.cmake",
+		"D:/normal_program/QT/6.7.3/msvc2019_64/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake",
+		"D:/normal_program/QT/6.7.3/msvc2019_64/lib/cmake/Qt6/Qt6Config.cmake",
+		"D:/normal_program/QT/6.7.3/msvc2019_64/lib/cmake/Qt6/Qt6ConfigExtras.cmake",
+		"D:/normal_program/QT/6.7.3/msvc2019_64/lib/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake",
+		"D:/normal_program/QT/6.7.3/msvc2019_64/lib/cmake/Qt6/Qt6Targets.cmake",
+		"D:/normal_program/QT/6.7.3/msvc2019_64/lib/cmake/Qt6/Qt6VersionlessTargets.cmake",
+		"D:/normal_program/QT/6.7.3/msvc2019_64/lib/cmake/Qt6/QtFeature.cmake",
+		"C:/Program Files (x86)/CMake/share/cmake-3.27/Modules/CheckCXXCompilerFlag.cmake",
+		"D:/normal_program/QT/6.7.3/msvc2019_64/lib/cmake/Qt6/QtFeatureCommon.cmake",
+		"D:/normal_program/QT/6.7.3/msvc2019_64/lib/cmake/Qt6/QtPublicAppleHelpers.cmake",
+		"D:/normal_program/QT/6.7.3/msvc2019_64/lib/cmake/Qt6/QtPublicCMakeHelpers.cmake",
+		"D:/normal_program/QT/6.7.3/msvc2019_64/lib/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake",
+		"D:/normal_program/QT/6.7.3/msvc2019_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake",
+		"D:/normal_program/QT/6.7.3/msvc2019_64/lib/cmake/Qt6/QtPublicExternalProjectHelpers.cmake",
+		"D:/normal_program/QT/6.7.3/msvc2019_64/lib/cmake/Qt6/QtPublicFinalizerHelpers.cmake",
+		"D:/normal_program/QT/6.7.3/msvc2019_64/lib/cmake/Qt6/QtPublicFindPackageHelpers.cmake",
+		"D:/normal_program/QT/6.7.3/msvc2019_64/lib/cmake/Qt6/QtPublicPluginHelpers.cmake",
+		"D:/normal_program/QT/6.7.3/msvc2019_64/lib/cmake/Qt6/QtPublicTargetHelpers.cmake",
+		"D:/normal_program/QT/6.7.3/msvc2019_64/lib/cmake/Qt6/QtPublicTestHelpers.cmake",
+		"D:/normal_program/QT/6.7.3/msvc2019_64/lib/cmake/Qt6/QtPublicToolHelpers.cmake",
+		"D:/normal_program/QT/6.7.3/msvc2019_64/lib/cmake/Qt6/QtPublicWalkLibsHelpers.cmake",
+		"C:/Program Files (x86)/CMake/share/cmake-3.27/Modules/CMakeFindDependencyMacro.cmake",
+		"D:/normal_program/QT/6.7.3/msvc2019_64/lib/cmake/Qt6/Qt6Dependencies.cmake",
+		"C:/Program Files (x86)/CMake/share/cmake-3.27/Modules/GNUInstallDirs.cmake",
+		"D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/src/.qt/qml_imports/CSDL-FluentUI_conf.cmake",
+		"D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/Software/CSDL-FluentUI/src/qml.qrc"
+	],
+	"CMAKE_SOURCE_DIR" : "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/Software/CSDL-FluentUI",
+	"DEP_FILE" : "",
+	"DEP_FILE_RULE_NAME" : "",
+	"HEADERS" : 
+	[
+		[
+			"D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/Software/CSDL-FluentUI/src/simcontroller.h",
+			"Mu",
+			"EWIEGA46WW/moc_simcontroller.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/src/CSDL-FluentUI_autogen/include",
+	"MOC_COMPILATION_FILE" : "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/src/CSDL-FluentUI_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_NETWORK_LIB",
+		"QT_OPENGL_LIB",
+		"QT_PRINTSUPPORT_LIB",
+		"QT_QMLBUILTINS_LIB",
+		"QT_QMLINTEGRATION_LIB",
+		"QT_QMLMODELS_LIB",
+		"QT_QML_LIB",
+		"QT_QUICK_LIB",
+		"QT_WIDGETS_LIB",
+		"UNICODE",
+		"WIN32",
+		"WIN64",
+		"_ENABLE_EXTENDED_ALIGNED_STORAGE",
+		"_UNICODE",
+		"_WIN64"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"D:/normal_program/QT/6.7.3/msvc2019_64/include/QtCore",
+		"D:/normal_program/QT/6.7.3/msvc2019_64/include",
+		"D:/normal_program/QT/6.7.3/msvc2019_64/mkspecs/win32-msvc",
+		"D:/normal_program/QT/6.7.3/msvc2019_64/include/QtQuick",
+		"D:/normal_program/QT/6.7.3/msvc2019_64/include/QtGui",
+		"C:/VulkanSDK/1.3.296.0/Include",
+		"D:/normal_program/QT/6.7.3/msvc2019_64/include/QtQml",
+		"D:/normal_program/QT/6.7.3/msvc2019_64/include/QtQmlIntegration",
+		"D:/normal_program/QT/6.7.3/msvc2019_64/include/QtQmlBuiltins",
+		"D:/normal_program/QT/6.7.3/msvc2019_64/include/QtNetwork",
+		"D:/normal_program/QT/6.7.3/msvc2019_64/include/QtQmlModels",
+		"D:/normal_program/QT/6.7.3/msvc2019_64/include/QtOpenGL",
+		"D:/normal_program/QT/6.7.3/msvc2019_64/include/QtWidgets",
+		"D:/normal_program/QT/6.7.3/msvc2019_64/include/QtPrintSupport",
+		"C:/MinGW/include/c++/11.2.0",
+		"C:/MinGW/include/c++/11.2.0/x86_64-w64-mingw32",
+		"C:/MinGW/include/c++/11.2.0/backward",
+		"C:/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0/include",
+		"C:/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed",
+		"C:/MinGW/x86_64-w64-mingw32/include"
+	],
+	"MOC_MACRO_NAMES" : 
+	[
+		"Q_OBJECT",
+		"Q_GADGET",
+		"Q_NAMESPACE",
+		"Q_NAMESPACE_EXPORT",
+		"Q_GADGET_EXPORT",
+		"Q_ENUM_NS"
+	],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"C:/MinGW/bin/g++.exe",
+		"-std=gnu++17",
+		"-dM",
+		"-E",
+		"-c",
+		"C:/Program Files (x86)/CMake/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/src/CSDL-FluentUI_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 8,
+	"PARSE_CACHE_FILE" : "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/src/CMakeFiles/CSDL-FluentUI_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "D:/normal_program/QT/6.7.3/msvc2019_64/bin/moc.exe",
+	"QT_UIC_EXECUTABLE" : "",
+	"QT_VERSION_MAJOR" : 6,
+	"QT_VERSION_MINOR" : 7,
+	"SETTINGS_FILE" : "D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/build/src/CMakeFiles/CSDL-FluentUI_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/Software/CSDL-FluentUI/src/main.cpp",
+			"Mu",
+			null
+		]
+	],
+	"VERBOSITY" : 0
+}

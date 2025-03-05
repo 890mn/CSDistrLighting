@@ -29,7 +29,7 @@ const _sfc_main = {
     const loading = common_vendor.ref(false);
     const bleDeviceList = common_vendor.ref([]);
     const operatingSystem = uni_modules_uvUiTools_libs_function_index.os();
-    const deviceIdList = operatingSystem === "ios" ? ["4338C594-C742-429C-06A5-72A76E43374F"] : ["30:C6:F7:43:ED:CA"];
+    const deviceIdList = operatingSystem === "ios" ? ["4338C594-C742-429C-06A5-72A76E43374F"] : ["88:13:BF:00:8D:BE"];
     const toast = common_vendor.ref(null);
     const showToast = (params) => {
       toast.value.show({
@@ -117,9 +117,7 @@ const _sfc_main = {
           titleStyle: "color:white;",
           ["left-icon-size"]: "0"
         }),
-
-        b: common_vendor.sr(toast, "be635ea4-1", {
-
+        b: common_vendor.sr(toast, "6073a44a-1", {
           "k": "toast"
         }),
         c: common_vendor.o(start),
@@ -168,9 +166,7 @@ const _sfc_main = {
             c: common_vendor.t(item.RSSI),
             d: index,
             e: common_vendor.o(($event) => connect(item), index),
-
-            f: "be635ea4-12-" + i0 + ",be635ea4-11"
-
+            f: "6073a44a-12-" + i0 + ",6073a44a-11"
           };
         }),
         o: common_vendor.p({
@@ -185,7 +181,7 @@ const _sfc_main = {
         q: common_vendor.p({
           mode: "search",
           text: "没有扫描结果",
-          icon: "https://cdn.uviewui.com/uview/empty/search.png"
+          //icon: "https://cdn.uviewui.com/uview/empty/search.png"
         })
       }, {
         r: common_vendor.p({
