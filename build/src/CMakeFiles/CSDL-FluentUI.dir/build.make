@@ -147,14 +147,7 @@ D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/Software/CSDL-FluentUI/bin
 D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/Software/CSDL-FluentUI/bin/Debug/CSDL-FluentUI.exe: src/CMakeFiles/CSDL-FluentUI.dir/main.cpp.obj
 D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/Software/CSDL-FluentUI/bin/Debug/CSDL-FluentUI.exe: src/CMakeFiles/CSDL-FluentUI.dir/CSDL-FluentUI_autogen/EWIEGA46WW/qrc_qml.cpp.obj
 D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/Software/CSDL-FluentUI/bin/Debug/CSDL-FluentUI.exe: src/CMakeFiles/CSDL-FluentUI.dir/build.make
-D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/Software/CSDL-FluentUI/bin/Debug/CSDL-FluentUI.exe: D:/normal_program/QT/6.7.3/msvc2019_64/lib/Qt6Quickd.lib
 D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/Software/CSDL-FluentUI/bin/Debug/CSDL-FluentUI.exe: D:/normal_program/QT/6.7.3/msvc2019_64/qml/FluentUI/libfluentuiplugin.a
-D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/Software/CSDL-FluentUI/bin/Debug/CSDL-FluentUI.exe: D:/normal_program/QT/6.7.3/msvc2019_64/lib/Qt6QmlModelsd.lib
-D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/Software/CSDL-FluentUI/bin/Debug/CSDL-FluentUI.exe: D:/normal_program/QT/6.7.3/msvc2019_64/lib/Qt6Qmld.lib
-D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/Software/CSDL-FluentUI/bin/Debug/CSDL-FluentUI.exe: D:/normal_program/QT/6.7.3/msvc2019_64/lib/Qt6QmlBuiltinsd.lib
-D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/Software/CSDL-FluentUI/bin/Debug/CSDL-FluentUI.exe: D:/normal_program/QT/6.7.3/msvc2019_64/lib/Qt6Networkd.lib
-D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/Software/CSDL-FluentUI/bin/Debug/CSDL-FluentUI.exe: D:/normal_program/QT/6.7.3/msvc2019_64/lib/Qt6OpenGLd.lib
-D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/Software/CSDL-FluentUI/bin/Debug/CSDL-FluentUI.exe: D:/normal_program/QT/6.7.3/msvc2019_64/lib/Qt6Guid.lib
 D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/Software/CSDL-FluentUI/bin/Debug/CSDL-FluentUI.exe: D:/normal_program/QT/6.7.3/msvc2019_64/lib/Qt6Quickd.lib
 D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/Software/CSDL-FluentUI/bin/Debug/CSDL-FluentUI.exe: D:/normal_program/QT/6.7.3/msvc2019_64/lib/Qt6QmlModelsd.lib
 D:/study_data/CS_Major/Hardware/ESP32/CSDistrLighting/Software/CSDL-FluentUI/bin/Debug/CSDL-FluentUI.exe: D:/normal_program/QT/6.7.3/msvc2019_64/lib/Qt6OpenGLd.lib

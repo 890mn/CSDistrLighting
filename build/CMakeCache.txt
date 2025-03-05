@@ -335,6 +335,9 @@ QT_LRELEASE:FILEPATH=D:/normal_program/QT/6.7.3/msvc2019_64/bin/lrelease.exe
 //Path to a program.
 QT_LUPDATE:FILEPATH=D:/normal_program/QT/6.7.3/msvc2019_64/bin/lupdate.exe
 
+//The directory containing a CMake configuration file for Qt6Concurrent.
+Qt6Concurrent_DIR:PATH=D:/normal_program/QT/6.7.3/msvc2019_64/lib/cmake/Qt6Concurrent
+
 //The directory containing a CMake configuration file for Qt6CoreTools.
 Qt6CoreTools_DIR:PATH=D:/normal_program/QT/6.7.3/msvc2019_64/lib/cmake/Qt6CoreTools
 
@@ -377,11 +380,29 @@ Qt6QmlTools_DIR:PATH=D:/normal_program/QT/6.7.3/msvc2019_64/lib/cmake/Qt6QmlTool
 //The directory containing a CMake configuration file for Qt6Qml.
 Qt6Qml_DIR:PATH=D:/normal_program/QT/6.7.3/msvc2019_64/lib/cmake/Qt6Qml
 
+//The directory containing a CMake configuration file for Qt6Quick3DRuntimeRender.
+Qt6Quick3DRuntimeRender_DIR:PATH=D:/normal_program/QT/6.7.3/msvc2019_64/lib/cmake/Qt6Quick3DRuntimeRender
+
+//The directory containing a CMake configuration file for Qt6Quick3DTools.
+Qt6Quick3DTools_DIR:PATH=D:/normal_program/QT/6.7.3/msvc2019_64/lib/cmake/Qt6Quick3DTools
+
+//The directory containing a CMake configuration file for Qt6Quick3DUtils.
+Qt6Quick3DUtils_DIR:PATH=D:/normal_program/QT/6.7.3/msvc2019_64/lib/cmake/Qt6Quick3DUtils
+
+//The directory containing a CMake configuration file for Qt6Quick3D.
+Qt6Quick3D_DIR:PATH=D:/normal_program/QT/6.7.3/msvc2019_64/lib/cmake/Qt6Quick3D
+
 //The directory containing a CMake configuration file for Qt6QuickTools.
 Qt6QuickTools_DIR:PATH=D:/normal_program/QT/6.7.3/msvc2019_64/lib/cmake/Qt6QuickTools
 
 //The directory containing a CMake configuration file for Qt6Quick.
 Qt6Quick_DIR:PATH=D:/normal_program/QT/6.7.3/msvc2019_64/lib/cmake/Qt6Quick
+
+//The directory containing a CMake configuration file for Qt6ShaderToolsTools.
+Qt6ShaderToolsTools_DIR:PATH=D:/normal_program/QT/6.7.3/msvc2019_64/lib/cmake/Qt6ShaderToolsTools
+
+//The directory containing a CMake configuration file for Qt6ShaderTools.
+Qt6ShaderTools_DIR:PATH=D:/normal_program/QT/6.7.3/msvc2019_64/lib/cmake/Qt6ShaderTools
 
 //The directory containing a CMake configuration file for Qt6WidgetsTools.
 Qt6WidgetsTools_DIR:PATH=D:/normal_program/QT/6.7.3/msvc2019_64/lib/cmake/Qt6WidgetsTools
