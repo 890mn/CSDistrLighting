@@ -9,8 +9,7 @@
     - 子项目说明 | instruction
 - [项目成员](#项目成员)
 - [思维导图](#思维导图)
-- [工作分解结构WBS](#工作分解结构WBS)
-- [WBS词典](#WBS词典)
+- [工作分解结构WBS/WBS词典](#工作分解结构WBS/WBS词典)
 - [项目的系列草图](#项目的系列草图)
 - [项目组成图](#项目组成图)
 - [体系结构图](#体系结构图)
@@ -61,13 +60,26 @@ The further goal is to complete the distribute system of dynamic compose, includ
 
 附: [源文件](./光照度控制系统.mm)
 
-## 工作分解结构WBS
+## 工作分解结构WBS/WBS词典
 
-## WBS词典
+WBS如下: 
+![wbs](./Pic/wbs.png)
+
+附: [**源文件**](./创新项目.mpp)
 
 ## 项目的系列草图
 
+草图如下: 
+![draft](./Pic/draft.png)
+
+附: [**源文件**](./草图.vsdx)
+
 ## 项目组成图
+
+组成如下: 
+![zuc](./Pic/zuc.png)
+
+附: [**源文件**](./组成图.vsdx)
 
 ## 体系结构图
 
