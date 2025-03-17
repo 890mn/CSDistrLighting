@@ -19,7 +19,7 @@ void setup()
 	myPID.SetMode(AUTOMATIC);
 	myPID.SetSampleTime(1000); // 采样周期为1秒
 
-	kelvinToRGB(device.colorTemper);
+	//kelvinToRGB(device.colorTemper);
 	WiFi.mode(WIFI_STA); // 设置WIFI为STA模式
 	WiFi.disconnect();	 // 断开WiFi连接
 
@@ -33,7 +33,9 @@ void setup()
 	// 注册接收回调函数
 	esp_now_register_recv_cb(OnDataRecv);
 
-	strip.begin(); // 初始化灯带
+	//strip.begin(); // 初始化灯带
+	pinMode(PWM_PIN, OUTPUT);
+  	analogWriteFreq(PWM_FREQ); // 设置 PWM 频率
 }
 
 /* loop Function
@@ -57,8 +59,8 @@ void loop()
 			setPower(map(device.lumiManual, 0, 100, 0, 255)); // 手动模式下的亮度设置
 		}
 
-		kelvinToRGB(device.colorTemper); // 设置颜色温度对应的RGB值
-		setRGB(R, G, B);
-		strip.show();
+		//(device.colorTemper); // 设置颜色温度对应的RGB值
+		//setRGB(R, G, B);
+		//strip.show();
 	}
 }

@@ -2,10 +2,14 @@
 #define __MAIN_H
 
 #include <ESP8266WiFi.h>
+#include <Arduino.h>
 
-#define NUMPIXELS 16
-#define PIN D1	
-#define DEADBAND 5
+//#define NUMPIXELS 16
+//#define PIN D1	
+//#define DEADBAND 5
+
+#define PWM_PIN D1    // 连接 PWM 转 0-10V 模块的 PWM 输入端
+#define PWM_FREQ 3000 // PWM 频率 1kHz
 
 extern uint8_t R, G, B;
 
